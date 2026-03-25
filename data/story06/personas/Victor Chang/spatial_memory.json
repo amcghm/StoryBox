@@ -1,0 +1,56 @@
+{
+  "Underground Maze Facility": {
+    "Maze Complex": {
+      "Control Room": {
+        "Main Console": [
+          "Control Panel",
+          "Communication Device"
+        ]
+      },
+      "Medical Bay": {
+        "Treatment Room": [
+          "First Aid Kit",
+          "Medical Bed"
+        ]
+      },
+      "Research Lab": {
+        "Analysis Station": [
+          "Microscope",
+          "Sample Containers"
+        ]
+      },
+      "Living Quarters": {
+        "Common Room": [
+          "Couch",
+          "Coffee Table"
+        ]
+      },
+      "Escape Route": {
+        "Exit Door": [
+          "Security Panel",
+          "Emergency Kit"
+        ]
+      }
+    },
+    "Maze Environment": {
+      "Hallway": {
+        "Light Switch": [
+          "Flashlight",
+          "Map"
+        ]
+      },
+      "Trap Room": {
+        "Puzzle Area": [
+          "Puzzle Box",
+          "Clue Board"
+        ]
+      },
+      "Observation Deck": {
+        "Viewing Window": [
+          "Binoculars",
+          "Notepad"
+        ]
+      }
+    }
+  }
+}

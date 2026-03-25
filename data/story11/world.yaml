@@ -1,0 +1,82 @@
+name: Deep-Space Mission Station
+description: A high-tech space station orbiting a distant, uncharted planet, housing a crew of astronauts on a deep-space mission.
+cities:
+  - name: Space Station Living Quarters
+    description: A section of the station providing living spaces and facilities for the crew.
+    places:
+      - name: Crew Dormitory
+        description: The main dormitory area for the astronauts, providing personal sleeping quarters.
+        areas:
+          - name: Room 401
+            description: A private dormitory room for crew members to rest and sleep.
+            objects:
+              - name: Single Bed
+                description: A bed for crew members to sleep on during off-duty hours.
+              - name: Personal Desk
+                description: A desk for personal work or study.
+      - name: Command Deck
+        description: The central hub for mission control and leadership, overseen by the captain.
+        areas:
+          - name: Control Room
+            description: The room for monitoring mission systems and making critical decisions.
+            objects:
+              - name: Captain's Chair
+                description: The captain’s chair for overseeing operations.
+              - name: Communications Console
+                description: A console for managing external communications.
+      - name: Medical Bay
+        description: A medical facility for the astronauts, staffed by the mission’s doctor.
+        areas:
+          - name: Recovery Room
+            description: A room where crew members are treated for injuries or sickness.
+            objects:
+              - name: Medical Bed
+                description: A bed for medical treatments and recovery.
+              - name: Diagnostic Equipment
+                description: Equipment for monitoring the crew's health.
+  - name: Alien Vessel Research Area
+    description: A designated area within the space station for studying the alien vessel and its mysterious substance.
+    places:
+      - name: Research Lab
+        description: A high-tech laboratory where Dr. Marcus Trent conducts experiments on the alien substance.
+        areas:
+          - name: Containment Chamber
+            description: A secure room designed for safely studying the reality-altering substance.
+            objects:
+              - name: Substance Containment Box
+                description: A secure box to hold the mysterious substance.
+              - name: Analyzer
+                description: A machine used for analyzing the substance’s properties.
+      - name: Hall of Visions
+        description: A room where Mia Sanchez experiences strange visions after interacting with the substance.
+        areas:
+          - name: Visionary Space
+            description: A room where the substance’s influence causes surreal visions to manifest.
+            objects:
+              - name: Holographic Projector
+                description: A device projecting visions related to the substance’s effects.
+              - name: Reality Filter
+                description: A tool designed to stabilize the reality distortion caused by the substance.
+  - name: Planetary Surface Operations
+    description: A base on the surface of the uncharted planet, used for exploring the alien vessel.
+    places:
+      - name: Landing Zone
+        description: The area where the astronauts land their shuttle to explore the planet’s surface.
+        areas:
+          - name: Shuttle Docking Station
+            description: A docking station for the shuttle when it returns from missions on the planet’s surface.
+            objects:
+              - name: Docking Clamp
+                description: A mechanism used to secure the shuttle during docking.
+              - name: Planetary Exploration Gear
+                description: Equipment used for exploring the surface of the planet.
+      - name: Alien Vessel Exterior
+        description: The outer section of the ancient alien vessel, containing unknown structures and materials.
+        areas:
+          - name: Hatch Entry
+            description: The point of entry to the alien vessel.
+            objects:
+              - name: Alien Door Mechanism
+                description: A device for unlocking and opening the alien vessel’s doors.
+              - name: Bio-Scanner
+                description: A scanner to detect any lifeforms or anomalous energies inside the vessel.

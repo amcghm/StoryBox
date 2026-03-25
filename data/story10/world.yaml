@@ -1,0 +1,83 @@
+name: City of Shadows
+description: A city divided between wealth and poverty, with dark corners where crime festers.
+cities:
+  - name: Wealthy District
+    description: A posh area filled with luxury buildings and high-end services.
+    places:
+      - name: Elite Shopping Mall
+        description: A mall featuring high-end boutiques and fine dining.
+        areas:
+          - name: Fashion Store
+            description: A store selling designer clothing and accessories.
+            objects:
+              - name: Luxury Handbag
+                description: A high-end handbag fashioned by a famous designer.
+              - name: Designer Shoes
+                description: Stylish shoes from a renowned fashion brand.
+          - name: Fine Dining Restaurant
+            description: A restaurant offering exquisite dining experiences.
+            objects:
+              - name: Wine List
+                description: A list of fine wines available for purchase.
+              - name: Menu
+                description: A selection of gourmet meals served at the restaurant.
+      - name: High-Rise Apartments
+        description: Exclusive residential buildings for the affluent.
+        areas:
+          - name: Penthouse Suite
+            description: A luxurious apartment with panoramic views of the city.
+            objects:
+              - name: King-size Bed
+                description: A spacious bed for ultimate comfort.
+              - name: Home Theater System
+                description: A state-of-the-art entertainment system.
+  - name: Poor District
+    description: A rundown area plagued by crime and poverty.
+    places:
+      - name: Abandoned Warehouse
+        description: A dilapidated building often used for illicit activities.
+        areas:
+          - name: Hidden Room
+            description: A concealed area used for illegal dealings.
+            objects:
+              - name: Stolen Goods
+                description: Items obtained through criminal activities.
+              - name: Safe
+                description: A secure box for keeping valuables and cash.
+      - name: Local Diner
+        description: A modest eatery frequented by locals.
+        areas:
+          - name: Counter
+            description: A place to order food and drinks.
+            objects:
+              - name: Coffee Cup
+                description: A cup of freshly brewed coffee.
+              - name: Menu Board
+                description: A board displaying daily specials.
+          - name: Booths
+            description: Seating areas for customers to enjoy their meals.
+            objects:
+              - name: Table
+                description: A small table for dining.
+              - name: Vinyl Booth
+                description: Comfortable seating for patrons.
+  - name: Dark Alley
+    description: A narrow passageway known for criminal activities.
+    places:
+      - name: Underground Bar
+        description: A seedy bar offering cheap drinks and a hidden atmosphere.
+        areas:
+          - name: Bar Counter
+            description: A counter where drinks are served.
+            objects:
+              - name: Bottle of Whiskey
+                description: A popular alcoholic drink served at the bar.
+              - name: Glass
+                description: A drinking glass for serving beverages.
+          - name: Backroom
+            description: A secluded area for private discussions.
+            objects:
+              - name: Poker Table
+                description: A table used for playing card games.
+              - name: Stack of Chips
+                description: Chips used for gambling at the poker table.

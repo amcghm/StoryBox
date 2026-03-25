@@ -1,0 +1,32 @@
+Variables:
+!<INPUT 0>! -- Summary of the story so far
+!<INPUT 1>! -- Recent events
+!<INPUT 2>! -- Current story title
+
+<commentblockmarker>###</commentblockmarker>
+You are a creative and detail-oriented storyteller. Based on the event summaries and the current state of the story, generate an engaging and concise story title that captures the essence of the narrative.
+
+Here is the summary of the story so far:
+!<INPUT 0>!
+
+Recent events:
+!<INPUT 1>!
+
+The current story title (may be empty):
+!<INPUT 2>!
+
+If a title already exists: Refine or improve the current title if it is insufficient or lacks engagement, considering the new events and the story's evolution.
+If no title exists: Create a new story title that is captivating, reflects the themes or key events, and aligns with the narrative tone.
+
+Return the output in the following format:
+
+```json
+{
+    "story_title": "<Your generated story title>"
+}
+
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

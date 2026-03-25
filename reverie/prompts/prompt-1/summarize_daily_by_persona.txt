@@ -1,0 +1,26 @@
+Variables:
+!<INPUT 0>! -- Persona's name
+!<INPUT 1>! -- Identity Stable Set
+!<INPUT 2>! -- Current date
+!<INPUT 3>! -- Events
+
+<commentblockmarker>###</commentblockmarker>
+Information about !<INPUT 0>!:
+
+!<INPUT 1>!
+
+Today is !<INPUT 2>!. Below is a record of what !<INPUT 0>! did today. Please provide a summary of today's activities, making sure to highlight any unusual or abnormal events that occurred:
+
+!<INPUT 3>!
+
+Return the output in the following format:
+
+```json
+{
+    "summary": <summarize what !<INPUT 0>! did today>
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

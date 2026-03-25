@@ -1,0 +1,71 @@
+name: Isolated Art Studio
+description: A remote, isolated art studio perched on a cliff, overlooking a stormy sea. The studio is where Owen Price is cursed to paint the same masterpiece forever.
+cities:
+  - name: Art Studio
+    description: A secluded place for creative work and cursed existence.
+    places:
+      - name: Main Studio
+        description: The heart of the studio, filled with unfinished canvases and an eternal masterpiece.
+        areas:
+          - name: Painting Space
+            description: The section where Owen tirelessly paints his masterpiece.
+            objects:
+              - name: Canvas
+                description: A blank canvas that continuously regenerates for Owen to paint on.
+              - name: Paintbrush
+                description: A tool for Owen to create his art, constantly in use.
+              - name: Easel
+                description: A stand for the canvas, never allowing Owen to leave.
+      - name: Gallery
+        description: An area displaying the same painting, each iteration of it hauntingly similar to the last.
+        areas:
+          - name: Viewing Area
+            description: The place where Mariana and others come to view the painting.
+            objects:
+              - name: Frame
+                description: The ornate frame that holds the masterpiece.
+              - name: Spotlights
+                description: Lights that always shine on the painting, highlighting its endless repetition.
+      - name: Victor's Lair
+        description: A mysterious room hidden in the studio, possibly connected to the curse that plagues Owen.
+        areas:
+          - name: Altar
+            description: A place that might hold clues to the origin of the curse.
+            objects:
+              - name: Candles
+                description: Flickering candles that seem to burn forever, never consumed.
+              - name: Scroll
+                description: A mysterious scroll that could contain secrets about the curse.
+      - name: Cliffside
+        description: The edge of the cliff, where the stormy sea crashes violently below.
+        areas:
+          - name: Viewing Point
+            description: A place to watch the tumultuous sea and contemplate one's fate.
+            objects:
+              - name: Telescope
+                description: A tool to peer into the distance, yet unable to escape the cycle.
+              - name: Rock Seat
+                description: A rough, weathered seat where one can sit and reflect.
+  - name: Village
+    description: A small, isolated village at the foot of the cliff, rarely visited by outsiders.
+    places:
+      - name: Local Tavern
+        description: The only social spot in the village where people gather.
+        areas:
+          - name: Bar Area
+            description: Where villagers talk, but Owen is a frequent, silent observer.
+            objects:
+              - name: Tankard
+                description: A wooden mug for drinks, often empty in Owen's hand.
+              - name: Fire Pit
+                description: A warm fire that contrasts the cold studio.
+      - name: Market Square
+        description: A small village square, quiet and empty most of the time.
+        areas:
+          - name: Fountain
+            description: A weathered fountain with a stagnant pool, symbolizing stillness.
+            objects:
+              - name: Statue
+                description: A stone figure standing still, a reminder of lost time.
+              - name: Water Basin
+                description: The basin, always filled with water, never flowing freely.

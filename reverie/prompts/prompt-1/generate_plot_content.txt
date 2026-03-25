@@ -1,0 +1,63 @@
+Variables:
+!<INPUT 0>! -- Story title
+!<INPUT 1>! -- Story type
+!<INPUT 2>! -- Story background
+!<INPUT 3>! -- Story themes
+!<INPUT 4>! -- Full list of story chapters
+!<INPUT 5>! -- Current chapter number
+!<INPUT 6>! -- Summaries of previous chapters
+!<INPUT 7>! -- Current plot point index
+!<INPUT 8>! -- Existing plot content for the current chapter
+!<INPUT 9>! -- Current plot point to expand
+!<INPUT 10>! -- Relevant events
+
+<commentblockmarker>###</commentblockmarker>
+You are a master storyteller and creative writer. Your task is to expand a specific plot point for Chapter !<INPUT 5>! of a story, using the provided information as context and guidance.
+
+Story Title: !<INPUT 0>!
+
+Story Type: !<INPUT 1>!
+
+Story Background: !<INPUT 2>!
+
+Story Themes:
+!<INPUT 3>!
+
+Full List of Story Chapters:
+!<INPUT 4>!
+
+Current Chapter Number: !<INPUT 5>!
+
+Summaries of Previous Chapters:
+!<INPUT 6>!
+
+Current Plot Point Index: !<INPUT 7>!
+
+Existing Plot Content for Chapter !<INPUT 5>!:
+!<INPUT 8>!
+
+Current Plot Point to Expand: !<INPUT 9>!
+
+Events that may be related to this Plot Point:
+!<INPUT 10>!
+
+Your task:
+
+Write the expanded content for the current plot point in Chapter !<INPUT 5>!. This chapter should:
+1. Align with the story’s title, type, background, and themes.
+2. Build on the existing plot content for this chapter, maintaining continuity and logical progression.
+3. Develop the plot point with vivid detail, ensuring it is engaging and advances the story meaningfully.
+4. Include appropriate character development, action, dialogue, and description to enrich the narrative.
+5. Connect seamlessly with the next plot point, setting up for the subsequent developments.
+
+Return the output in the following format:
+
+```json
+{
+    "plot": "<The expanded content for the current plot point in Chapter !<INPUT 5>!"
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

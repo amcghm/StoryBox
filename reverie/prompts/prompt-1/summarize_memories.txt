@@ -1,0 +1,25 @@
+Variables:
+!<INPUT 0>! -- Memory Type
+!<INPUT 1>! -- Memory List
+
+<commentblockmarker>###</commentblockmarker>
+The following memories are related to !<INPUT 0>!. This memory list may contain duplicates and redundancies. Please summarize and organize the memories in the list as needed, merging those that should be combined while retaining the original entries for those that do not need to be merged.
+
+Return the output in the following format:
+
+```json
+[
+    {
+        "content": "",
+        "memory_type": "",
+        "create_time": "",
+        "retrieval_cnt": ""
+    }
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Memory List: !<INPUT 1>!
+
+Output in JSON format:

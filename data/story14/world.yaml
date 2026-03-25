@@ -1,0 +1,73 @@
+name: Ancient Temple Expedition
+description: A team of archaeologists uncovers an ancient temple that holds the key to an ancient civilization’s downfall, with secrets that may lead to their peril.
+cities:
+  - name: Jungle Camp
+    description: A base camp set up for the archaeological expedition deep in the jungle.
+    places:
+      - name: Main Tent
+        description: The primary tent where the team gathers for meetings and discussions.
+        areas:
+          - name: Conference Table
+            description: A table where team members strategize and share findings.
+            objects:
+              - name: Maps
+                description: Detailed maps of the jungle and the temple's layout.
+              - name: Projector
+                description: A device used to present research findings.
+      - name: Artifact Storage
+        description: A secured area for storing ancient artifacts discovered during the expedition.
+        areas:
+          - name: Display Shelves
+            description: Shelves displaying artifacts and findings.
+            objects:
+              - name: Pottery
+                description: Ancient pottery pieces unearthed from the temple site.
+              - name: Tools
+                description: Primitive tools that were used by the civilization.
+      - name: Supplies Tent
+        description: A tent stocked with essential supplies for the expedition.
+        areas:
+          - name: Food Supplies
+            description: An area for storing non-perishable food items.
+            objects:
+              - name: Canned Goods
+                description: Various canned foods for the team.
+              - name: Water Containers
+                description: Containers filled with water for hydration.
+          - name: Medical Supplies
+            description: A section dedicated to first aid and medical supplies.
+            objects:
+              - name: First Aid Kit
+                description: A kit containing medical supplies for emergencies.
+              - name: Insect Repellent
+                description: A spray to protect against bug bites in the jungle.
+  - name: Temple Site
+    description: The ancient temple hidden deep within the jungle, shrouded in mystery and danger.
+    places:
+      - name: Temple Entrance
+        description: The main entrance to the temple, adorned with ancient carvings.
+        areas:
+          - name: Carved Archway
+            description: An archway with inscriptions warning of a curse.
+            objects:
+              - name: Inscription Stone
+                description: A stone with ancient writing that hints at the temple's secrets.
+              - name: Guardian Statues
+                description: Statues that depict mythical creatures believed to protect the temple.
+      - name: Inner Chamber
+        description: The main chamber inside the temple where rituals were performed.
+        areas:
+          - name: Altars
+            description: Stone altars used in ancient ceremonies.
+            objects:
+              - name: Offering Bowls
+                description: Bowls that held offerings to the gods.
+              - name: Idol
+                description: An idol that represents the deity worshipped by the civilization.
+          - name: Wall Murals
+            description: Murals depicting the history and downfall of the ancient civilization.
+            objects:
+              - name: Mural Paintings
+                description: Vibrant paintings that tell the story of the civilization.
+              - name: Hidden Compartment
+                description: A secret compartment that may hold ancient treasures.

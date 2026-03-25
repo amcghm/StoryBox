@@ -1,0 +1,33 @@
+Variables:
+!<INPUT 0>! -- Summary of the story so far
+!<INPUT 1>! -- Story title
+!<INPUT 2>! -- Story type
+
+<commentblockmarker>###</commentblockmarker>
+You are an expert worldbuilder and storyteller. Based on the provided summaries of events, the story title, and the story type, create a detailed and immersive background for the story. This background should give depth to the world, context to the narrative.
+
+Here are the summaries of events from the past few days:
+!<INPUT 0>!
+
+The Story title is:
+!<INPUT 1>!
+
+The Story type is:
+!<INPUT 2>!
+
+Analyze the event summaries, story title, and story type to understand the setting, tone, and key elements of the narrative.
+Use this information to construct a rich background for the story. This background should explain the world the characters inhabit, the historical or situational context, and any other relevant factors that influence the unfolding events.
+Provide a clear, engaging, and immersive background that helps deepen the reader’s understanding of the story’s setting and its world.
+
+Return the output in the following format:
+
+```json
+{
+    "story_background": "<Your generated story background>"
+}
+
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

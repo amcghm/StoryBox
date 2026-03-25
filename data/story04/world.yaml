@@ -1,0 +1,107 @@
+name: Arctic Research Station
+description: An isolated research facility in the Arctic, dedicated to scientific exploration and study of environmental conditions and extraterrestrial phenomena.
+cities:
+  - name: Research Station
+    description: A remote facility for scientists studying the Arctic environment and alien artifacts.
+    places:
+      - name: Main Laboratory
+        description: The primary facility for conducting experiments and research.
+        areas:
+          - name: Sample Analysis Room
+            description: A room for analyzing collected samples.
+            objects:
+              - name: Microscope
+                description: An instrument for viewing small objects.
+              - name: Spectrometer
+                description: A device for measuring the properties of light.
+          - name: Artifact Study Room
+            description: A dedicated space for examining the alien artifact.
+            objects:
+              - name: Workbench
+                description: A table for working on the artifact.
+              - name: Tools
+                description: Various instruments for manipulating and studying the artifact.
+      - name: Command Center
+        description: The operational hub of the research station.
+        areas:
+          - name: Control Room
+            description: A room with monitors for tracking weather and station activities.
+            objects:
+              - name: Weather Station
+                description: Equipment for monitoring environmental conditions.
+              - name: Communication Equipment
+                description: Devices for contacting the outside world.
+          - name: Briefing Area
+            description: A space for team meetings and discussions.
+            objects:
+              - name: Conference Table
+                description: A table for group discussions.
+              - name: Whiteboard
+                description: A surface for writing and planning.
+      - name: Storage Facility
+        description: A place to store supplies, equipment, and research materials.
+        areas:
+          - name: Equipment Room
+            description: A room filled with scientific equipment and tools.
+            objects:
+              - name: Field Gear
+                description: Equipment for conducting outdoor research.
+              - name: Sample Containers
+                description: Containers for safely storing biological and geological samples.
+          - name: Food Supply Room
+            description: A storage area for provisions and food supplies.
+            objects:
+              - name: Canned Goods
+                description: Non-perishable food items for sustenance.
+              - name: Freeze-Dried Meals
+                description: Easy-to-prepare meals for expeditions.
+  - name: Living Quarters
+    description: A place for the scientists to rest and recover from their work.
+    places:
+      - name: Shared Bedroom
+        description: A communal area with sleeping arrangements for the team.
+        areas:
+          - name: Bed 1
+            description: The bed assigned to Dr. Emily Reynolds.
+            objects:
+              - name: Blanket
+                description: A warm blanket to keep Dr. Reynolds comfortable.
+              - name: Pillow
+                description: A soft pillow for resting.
+          - name: Bed 2
+            description: The bed assigned to Dr. Ian McCallister.
+            objects:
+              - name: Blanket
+                description: A sturdy blanket providing warmth in the cold.
+              - name: Alarm Clock
+                description: A clock to help Dr. McCallister maintain his schedule.
+          - name: Bed 3
+            description: The bed assigned to Lena Novak.
+            objects:
+              - name: Comforter
+                description: A cozy comforter for a restful sleep.
+              - name: Nightstand
+                description: A small table for personal items and a reading lamp.
+          - name: Bed 4
+            description: The bed assigned to James Archer.
+            objects:
+              - name: Military-Style Blanket
+                description: A durable blanket reflecting James’ disciplined lifestyle.
+              - name: Reading Lamp
+                description: A lamp for reading before bed.
+          - name: Bed 5
+            description: The bed assigned to Eliot White.
+            objects:
+              - name: Throw Blanket
+                description: A casual blanket often tossed aside during his late-night research sessions.
+              - name: Notepad
+                description: A pad for jotting down ideas that strike at night.
+          - name: Lockers
+            description: Secure storage for personal belongings.
+          - name: Recreation Room
+            description: A space for relaxation and leisure activities.
+            objects:
+              - name: Couch
+                description: A comfortable seating area for resting.
+              - name: Game Console
+                description: A gaming system for entertainment.

@@ -1,0 +1,74 @@
+name: Hidden Kingdom
+description: A secretive and technologically advanced underground kingdom with ancient politics and vast caverns.
+cities:
+  - name: Subterranean City
+    description: The main city of the hidden kingdom, bustling with advanced technology and ancient architecture.
+    places:
+      - name: Royal Palace
+        description: The residence of King Malcus, filled with opulent decorations and advanced security.
+        areas:
+          - name: Throne Room
+            description: The grand hall where the king holds court.
+            objects:
+              - name: Throne
+                description: A magnificent throne for the ruler of the kingdom.
+              - name: Royal Banner
+                description: A decorative banner symbolizing the kingdom's heritage.
+          - name: Council Chamber
+            description: A meeting place for nobles and advisors.
+            objects:
+              - name: Long Table
+                description: A large table for discussions and decisions.
+              - name: Candles
+                description: Candles providing light and ambiance to the chamber.
+      - name: Rebel Hideout
+        description: A secretive location for Jarek Voss and his followers to plan their uprising.
+        areas:
+          - name: Strategy Room
+            description: A room filled with maps and plans for the rebellion.
+            objects:
+              - name: Map of the Kingdom
+                description: A detailed map outlining important locations.
+              - name: Weapons Cache
+                description: A storage area for weapons and supplies.
+          - name: Barracks
+            description: Sleeping quarters for the rebel members.
+            objects:
+              - name: Bunk Beds
+                description: Bed frames for rebels to rest.
+              - name: Supplies
+                description: Essential supplies for the rebels' survival.
+      - name: Guardian's Sanctum
+        description: A sacred space guarded by Elda Starling, filled with ancient knowledge.
+        areas:
+          - name: Library
+            description: A vast collection of scrolls and texts about the kingdom's history.
+            objects:
+              - name: Ancient Scrolls
+                description: Scrolls containing secrets and spells.
+              - name: Reading Table
+                description: A table for studying ancient texts.
+          - name: Ritual Room
+            description: A chamber for performing ancient rites and ceremonies.
+            objects:
+              - name: Altar
+                description: A stone altar for conducting rituals.
+              - name: Crystals
+                description: Crystals used for amplifying magical energies.
+      - name: Cavern of Echoes
+        description: A natural cavern known for its sound phenomena and hidden dangers.
+        areas:
+          - name: Main Chamber
+            description: The large central area of the cavern with impressive rock formations.
+            objects:
+              - name: Stalactites
+                description: Icicle-like formations hanging from the ceiling.
+              - name: Echo Stones
+                description: Special stones that amplify sound and create echoes.
+          - name: Hidden Path
+            description: A secretive pathway leading deeper into the cavern.
+            objects:
+              - name: Lantern
+                description: A light source for navigating the dark path.
+              - name: Signposts
+                description: Markers indicating directions and dangers ahead.

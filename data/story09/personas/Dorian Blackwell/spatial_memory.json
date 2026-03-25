@@ -1,0 +1,54 @@
+{
+  "Time Traveler's Society": {
+    "New York City": {
+      "Hidden Passageway 1": {
+        "Time Portal Chamber": [
+          "Portal Device",
+          "Temporal Map"
+        ]
+      },
+      "Time Traveler's Headquarters": {
+        "Dorian's Office": [
+          "Ancient Book",
+          "Desk"
+        ],
+        "Isla's Lab": [
+          "Time Modulator",
+          "Computer Terminal"
+        ]
+      },
+      "Historical Library": {
+        "Research Room": [
+          "Artifact Collection",
+          "Research Desk"
+        ]
+      },
+      "Government Surveillance Center": {
+        "Monitoring Room": [
+          "Surveillance Screens",
+          "Communication Device"
+        ]
+      }
+    },
+    "Time Travel Zones": {
+      "Ancient Rome": {
+        "Colosseum": [
+          "Gladiator Armor",
+          "Historical Scrolls"
+        ]
+      },
+      "Victorian London": {
+        "Buckingham Palace": [
+          "Royal Attire",
+          "Portraits"
+        ]
+      },
+      "Future New York": {
+        "Sky Tower": [
+          "Holo-Map",
+          "Energy Source"
+        ]
+      }
+    }
+  }
+}

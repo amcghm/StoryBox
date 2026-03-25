@@ -1,0 +1,40 @@
+Variables:
+!<INPUT 0>! -- Summary of the story so far
+!<INPUT 1>! -- Story title
+!<INPUT 2>! -- Story type
+!<INPUT 3>! -- Story background
+!<INPUT 4>! -- Story themes
+!<INPUT 5>! -- Story chapters
+!<INPUT 6>! -- Number of story conflicts
+
+<commentblockmarker>###</commentblockmarker>
+You are an expert storyteller and conflict designer. Based on the provided summaries of past events, the story title, type, background, themes, and chapter summaries, your task is to generate a list of !<INPUT 6>! compelling and distinct story conflicts. These conflicts should drive the narrative forward, deepen character motivations, and explore the central themes of the story.
+
+Here are the summaries of events from the past few days:
+!<INPUT 0>!
+
+Story Title: !<INPUT 1>!
+Story Type: !<INPUT 2>!
+Story Background: !<INPUT 3>!
+
+Story Themes:
+!<INPUT 4>!
+
+Story chapter summaries:
+!<INPUT 5>!
+
+Your task is to generate !<INPUT 6>! distinct and compelling conflicts that align with the story's title, type, background, and themes. Each conflict should within a chapter and a brief description of the core tension, the parties involved, and the stakes. The conflicts should drive the narrative forward, fit within the overarching story, and reflect the key themes of the story.
+
+Return the output in the following format:
+
+```json
+{
+    "Chapter 1": [<conflict description>, <conflict description>, ...],
+    "Chapter 2": [<conflict description>, <conflict description>, ...],
+    ...
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

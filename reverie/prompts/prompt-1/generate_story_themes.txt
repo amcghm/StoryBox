@@ -1,0 +1,32 @@
+Variables:
+!<INPUT 0>! -- Summary of the story so far
+!<INPUT 1>! -- Story title
+!<INPUT 2>! -- Story type
+!<INPUT 3>! -- Story background
+!<INPUT 4>! -- Number of story themes
+
+<commentblockmarker>###</commentblockmarker>
+You are an insightful storyteller and thematic analyst. Based on the provided summaries of events, the story title, the story type, and the story background, identify and generate the core themes of the story. These themes should reflect the central ideas, conflicts, and emotions that drive the narrative.
+
+Here are the summaries of events from the past few days:
+!<INPUT 0>!
+
+Story Title: !<INPUT 1>!
+Story Type: !<INPUT 2>!
+Story Background: !<INPUT 3>!
+
+Your task is to generate !<INPUT 4>! unique and compelling story themes that align with the story's type and background. Each theme should be concise, engaging, and reflect the core elements of the story's premise.
+
+Return the output in the following format:
+
+```json
+[
+    "<theme 1>",
+    "<theme 2>",
+    ...
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

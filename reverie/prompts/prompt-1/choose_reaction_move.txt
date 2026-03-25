@@ -1,0 +1,41 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- World with description
+!<INPUT 2>! -- Persona's name
+!<INPUT 3>! -- Focused event info
+!<INPUT 4>! -- Persona's daily plan
+!<INPUT 5>! -- Reverie datetime now
+!<INPUT 6>! -- Persona's current location
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+World:
+!<INPUT 1>!
+
+!<INPUT 2>! now are focusing the event:
+!<INPUT 3>!
+
+!<INPUT 2>!'s daily plan:
+!<INPUT 4>!
+
+The current time is !<INPUT 5>!. !<INPUT 2>'s current location is !<INPUT 6>!
+
+Please choose a new location where !<INPUT 2>! might go, and explain what !<INPUT 2>! is going to do there.
+
+Return the output in the following format:
+
+```json
+{
+    "location": <location where the persona will move, for example, "Sun Yat-sen University:Academic Area:Supercomputing Center:Office 529">,
+    "event": {
+        "description": <the action the persona will perform upon arriving at the location, for example, "sleeping">,
+        "start_time": "!<INPUT 5>!",
+        "end_time": <the end time of the event, must be after start_time, for example, "2024-09-01 12:00 PM">,
+    }
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

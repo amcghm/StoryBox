@@ -1,0 +1,52 @@
+{
+  "Magical Kingdom": {
+    "Enchanted Forest": {
+      "Wizard's Grove": {
+        "Master Alden's Tower": [
+          "Spellbook",
+          "Crystal Ball"
+        ],
+        "Training Ground": [
+          "Training Dummy",
+          "Elemental Crystals"
+        ]
+      },
+      "Mystic Lake": {
+        "Shoreline": [
+          "Fishing Rod",
+          "Healing Herbs"
+        ]
+      }
+    },
+    "Floating Castle": {
+      "King Roderick's Throne Room": {
+        "Royal Throne": [
+          "Scepter",
+          "Royal Banner"
+        ],
+        "Council Chamber": [
+          "Round Table",
+          "Map of the Kingdom"
+        ]
+      },
+      "Lira's Library": {
+        "Reading Nook": [
+          "Scrolls",
+          "Quill and Ink"
+        ]
+      }
+    },
+    "Shadow Realm": {
+      "Duskwood's Hideout": {
+        "Ritual Chamber": [
+          "Dark Grimoire",
+          "Altar"
+        ],
+        "Shadow Garden": [
+          "Nightshade",
+          "Shadow Cloak"
+        ]
+      }
+    }
+  }
+}

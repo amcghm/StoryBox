@@ -1,0 +1,102 @@
+name: Hidden Town
+description: A quiet, picturesque small town with a long history of strange rumors and forgotten legends, surrounded by dense forests and mountains.
+cities:
+  - name: Town Center
+    description: The heart of the town, where most of the local businesses and historical buildings are located.
+    places:
+      - name: Town Library
+        description: A peaceful library where Margaret Reed works, housing a collection of local history and folklore.
+        areas:
+          - name: Library Main Hall
+            description: The main area where visitors browse books and read quietly.
+            objects:
+              - name: Bookshelves
+                description: Shelves filled with books on the town’s history and mysteries.
+              - name: Reading Table
+                description: A table where people can sit and study.
+      - name: Town Hall
+        description: The administrative building where Mayor Thomas Cole works, with a long history of local politics.
+        areas:
+          - name: Mayor’s Office
+            description: The office where Mayor Thomas Cole conducts his business and holds meetings.
+            objects:
+              - name: Desk
+                description: The desk where the mayor handles town affairs.
+              - name: File Cabinet
+                description: A cabinet containing records of the town’s history and current matters.
+      - name: Local Tavern
+        description: A popular gathering spot for townsfolk to unwind, where local gossip often spreads.
+        areas:
+          - name: Bar Area
+            description: The main area where patrons drink and socialize.
+            objects:
+              - name: Bar Counter
+                description: A counter where drinks are served.
+              - name: Wooden Chairs
+                description: Chairs for seating patrons.
+      - name: Town Square
+        description: The central square of the town, hosting local events and gatherings.
+        areas:
+          - name: Fountain
+            description: A stone fountain at the center of the square, often a place for town conversations.
+            objects:
+              - name: Stone Bench
+                description: A bench around the fountain where locals rest.
+              - name: Historic Plaque
+                description: A plaque commemorating the town's founding.
+  - name: Forest Edge
+    description: A dense, mysterious forest bordering the town, where many strange legends have originated.
+    places:
+      - name: Old Mine Entrance
+        description: The entrance to an abandoned mine rumored to hold hidden treasures.
+        areas:
+          - name: Mine Tunnel
+            description: A dark, narrow tunnel that leads deeper into the earth.
+            objects:
+              - name: Rusted Lantern
+                description: An old lantern used to light the tunnels.
+              - name: Old Pickaxe
+                description: A weathered pickaxe left behind by miners long ago.
+      - name: Abandoned Cabin
+        description: A forgotten cabin deep within the forest, believed to have once belonged to a hermit who knew about the treasure.
+        areas:
+          - name: Living Room
+            description: The main room of the cabin, where a fireplace and old furniture remain.
+            objects:
+              - name: Fireplace
+                description: A fireplace used to heat the cabin.
+              - name: Rocking Chair
+                description: A worn rocking chair that has seen many years.
+      - name: Hidden Grove
+        description: A secluded grove in the forest, said to be a meeting spot for those searching for the treasure.
+        areas:
+          - name: Sacred Stone
+            description: A large stone believed to hold clues to the treasure's location.
+            objects:
+              - name: Carved Symbol
+                description: An ancient symbol carved into the stone.
+              - name: Mysterious Map
+                description: A weathered map said to show the location of the treasure.
+  - name: Historical Society
+    description: A building dedicated to preserving the history of the town and its folklore.
+    places:
+      - name: Research Room
+        description: A room filled with old records and artifacts about the town's past.
+        areas:
+          - name: Artifact Display
+            description: A display case containing historical items related to the town.
+            objects:
+              - name: Old Journal
+                description: A journal believed to be written by one of the town's founders.
+              - name: Ancient Coin
+                description: A rare coin from the town’s early days.
+      - name: Library and Archive
+        description: A section of the Historical Society that contains detailed records of the town’s history.
+        areas:
+          - name: Archive Shelves
+            description: Shelves filled with archives and books on local legends and folklore.
+            objects:
+              - name: Old Map
+                description: A map showing the layout of the town in its early years.
+              - name: Town Chronicle
+                description: A chronicle of the town’s history and strange occurrences.

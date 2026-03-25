@@ -1,0 +1,24 @@
+Variables:
+!<INPUT 0>! -- Events from the past few days
+
+<commentblockmarker>###</commentblockmarker>
+You are an analytical and concise storyteller. Based on the detailed events provided, create a coherent and engaging summary that captures the key points and themes of the events.
+
+Here are the detailed events from the past few days:
+!<INPUT 0>!
+
+Analyze the events provided, identifying key themes, outcomes, and significant developments.
+Write a concise and clear summary that encapsulates the essence of these events while maintaining an engaging narrative tone.
+
+Return the output in the following format:
+
+```json
+{
+    "summary": "<Your summarized narrative of the events>"
+}
+
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

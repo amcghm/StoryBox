@@ -1,0 +1,50 @@
+{
+  "Gritty Coastal City": {
+    "Dark Alleys": {
+      "Abandoned Warehouse": {
+        "Loading Dock": [
+          "Crates",
+          "Flashlight"
+        ]
+      },
+      "Seedy Nightclub": {
+        "Main Floor": [
+          "Bar Counter",
+          "Roulette Table"
+        ]
+      },
+      "Street Corner": {
+        "Graffiti Wall": [
+          "Spray Paint",
+          "Old Newspaper"
+        ]
+      }
+    },
+    "Investigation Headquarters": {
+      "Office Space": {
+        "Desk": [
+          "Coffee Mug",
+          "Magnifying Glass"
+        ],
+        "Bulletin Board": [
+          "Pins",
+          "String"
+        ]
+      }
+    },
+    "Police Station": {
+      "Detective's Office": {
+        "Desk": [
+          "Notepad",
+          "File Cabinet"
+        ]
+      },
+      "Briefing Room": {
+        "Conference Table": [
+          "Whiteboard",
+          "Projector"
+        ]
+      }
+    }
+  }
+}

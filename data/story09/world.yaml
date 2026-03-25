@@ -1,0 +1,86 @@
+name: Time Traveler's Society
+description: A secret society dedicated to protecting history by traveling through time.
+cities:
+  - name: New York City
+    description: A modern metropolis with hidden passageways that lead to time-travel portals.
+    places:
+      - name: Hidden Passageway 1
+        description: A concealed entry leading to the underground network of time portals.
+        areas:
+          - name: Time Portal Chamber
+            description: A room where time portals are activated for travel.
+            objects:
+              - name: Portal Device
+                description: A device used to open and stabilize time portals.
+              - name: Temporal Map
+                description: A map used to navigate through different timelines.
+      - name: Time Traveler's Headquarters
+        description: The main base of operations for the society, located in an undisclosed location.
+        areas:
+          - name: Dorian's Office
+            description: Dorian Blackwell's office, where key decisions are made.
+            objects:
+              - name: Ancient Book
+                description: A book containing knowledge from various historical periods.
+              - name: Desk
+                description: A desk where strategic discussions take place.
+          - name: Isla's Lab
+            description: Isla Byrne's laboratory, dedicated to creating technology that aids time travel.
+            objects:
+              - name: Time Modulator
+                description: A device used to manipulate time for specific missions.
+              - name: Computer Terminal
+                description: A computer system used to monitor and control time travel operations.
+      - name: Historical Library
+        description: A vast collection of historical texts and artifacts, used for research.
+        areas:
+          - name: Research Room
+            description: A room where society members conduct historical research.
+            objects:
+              - name: Artifact Collection
+                description: A collection of artifacts from different historical periods.
+              - name: Research Desk
+                description: A desk used for reading and analyzing historical documents.
+      - name: Government Surveillance Center
+        description: A facility where Agent Romanov and her team track the activities of the time-traveling society.
+        areas:
+          - name: Monitoring Room
+            description: A room equipped with surveillance equipment to monitor the society's movements.
+            objects:
+              - name: Surveillance Screens
+                description: Screens showing real-time data on the society's activities.
+              - name: Communication Device
+                description: A device used for contacting field agents and receiving reports.
+  - name: Time Travel Zones
+    description: Various locations across time that the society monitors and protects.
+    places:
+      - name: Ancient Rome
+        description: A critical point in history that the society works to protect.
+        areas:
+          - name: Colosseum
+            description: A key location in ancient Rome where important historical events took place.
+            objects:
+              - name: Gladiator Armor
+                description: Armor worn by gladiators in the Colosseum.
+              - name: Historical Scrolls
+                description: Ancient scrolls containing vital information on Roman history.
+      - name: Victorian London
+        description: A period of significant cultural and historical development.
+        areas:
+          - name: Buckingham Palace
+            description: The royal residence where key historical figures made pivotal decisions.
+            objects:
+              - name: Royal Attire
+                description: Clothing worn by the royal family during the Victorian era.
+              - name: Portraits
+                description: Paintings of historical figures from the Victorian period.
+      - name: Future New York
+        description: A future version of New York City, crucial for maintaining the balance of history.
+        areas:
+          - name: Sky Tower
+            description: A futuristic skyscraper that symbolizes the city's technological advancements.
+            objects:
+              - name: Holo-Map
+                description: A holographic map showing key events in the future timeline.
+              - name: Energy Source
+                description: A sustainable energy device used to power future technologies.

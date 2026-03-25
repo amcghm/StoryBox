@@ -1,0 +1,98 @@
+name: Futuristic Metropolis
+description: A city controlled by a powerful corporation, where government and media are manipulated to maintain control over the populace.
+cities:
+  - name: Corporate District
+    description: The heart of the metropolis, filled with towering skyscrapers housing the most powerful corporations.
+    places:
+      - name: Headquarters Tower
+        description: The main building of the shadowy corporation, home to its executive offices and secretive operations.
+        areas:
+          - name: CEO's Office
+            description: The private office of Director Lyle Hayes, where corporate decisions are made.
+            objects:
+              - name: Desk
+                description: A massive desk where Lyle Hayes makes his strategic decisions.
+              - name: Computer
+                description: A highly secure terminal used for monitoring global activities and communications.
+      - name: Corporate Mall
+        description: A luxurious shopping complex catering to the elite, with businesses connected to the corporation's interests.
+        areas:
+          - name: VIP Lounge
+            description: An exclusive area for top-tier clients and executives of the corporation.
+            objects:
+              - name: Lounge Chairs
+                description: Comfortable seating for the corporation's influential guests.
+              - name: Coffee Table
+                description: A sleek, modern table for serving drinks and discussions.
+  - name: Underground Resistance Base
+    description: A hidden, secretive location where the outcasts meet to plan their heist against the corporation.
+    places:
+      - name: Operations Room
+        description: A secured room filled with technology used to monitor the corporation’s activities.
+        areas:
+          - name: Hacking Terminal
+            description: A high-powered computer used by Cassie Parker to infiltrate corporate systems.
+            objects:
+              - name: Keyboard
+                description: A specialized keyboard for fast and secure data entry.
+              - name: Monitor
+                description: A screen displaying corporate data and surveillance footage.
+      - name: Strategy Room
+        description: A space for the outcasts to discuss their plans and coordinate their actions.
+        areas:
+          - name: Planning Table
+            description: A large table where detailed heist plans are laid out.
+            objects:
+              - name: Map
+                description: A map of the metropolis highlighting key locations of interest.
+              - name: Whiteboard
+                description: A whiteboard for brainstorming and outlining plans.
+  - name: Black Market District
+    description: A shadowy area where the underworld operates, providing illegal goods and services to those with the right connections.
+    places:
+      - name: Arms Dealer
+        description: A black market shop selling weapons and equipment to those willing to pay.
+        areas:
+          - name: Weapon Rack
+            description: A rack filled with various firearms and high-tech gadgets.
+            objects:
+              - name: Gun
+                description: A sleek, silenced firearm for discreet operations.
+              - name: Spy Camera
+                description: A small, hidden camera used for surveillance and infiltration.
+      - name: Data Broker
+        description: A hidden location for trading sensitive information and corporate secrets.
+        areas:
+          - name: Data Terminal
+            description: A high-tech terminal used to buy and sell stolen corporate data.
+            objects:
+              - name: External Hard Drive
+                description: A storage device for sensitive data and corporate secrets.
+              - name: Encryption Software
+                description: Software used to secure and decrypt critical data.
+  - name: Government District
+    description: The area where the city's government buildings are located, under the corporation's indirect control.
+    places:
+      - name: City Hall
+        description: The heart of local governance, where officials make decisions that benefit the corporation.
+        areas:
+          - name: Council Room
+            description: A room where government officials meet to discuss policies.
+            objects:
+              - name: Council Table
+                description: A large table where high-level discussions take place.
+              - name: Government Files
+                description: Confidential documents detailing political and corporate alliances.
+  - name: Media Center
+    description: A high-tech facility where media broadcasts are controlled by the corporation.
+    places:
+      - name: Broadcast Studio
+        description: A state-of-the-art studio where news and entertainment are produced.
+        areas:
+          - name: News Desk
+            description: The anchor desk used for corporate-controlled news broadcasts.
+            objects:
+              - name: Teleprompter
+                description: A device used to display scripted content for the news anchor.
+              - name: Camera
+                description: A camera used for live broadcasts.

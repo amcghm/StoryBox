@@ -1,0 +1,72 @@
+{
+  "Noir City": {
+    "Detective's Office": {
+      "Marcus Kane's Office": {
+        "Desk": [
+          "Cigarette",
+          "Case Files"
+        ]
+      },
+      "Filing Cabinet": {
+        "Drawer 1": [
+          "Old Case File"
+        ]
+      }
+    },
+    "Rainy Alley": {
+      "Alleyway": {
+        "Bloodstain": [
+          "Bloody Knife"
+        ]
+      },
+      "Neon Sign": {
+        "Sign Post": [
+          "Broken Neon Light"
+        ]
+      }
+    },
+    "Vivienne's Hideout": {
+      "Apartment": {
+        "Message Desk": [
+          "Envelope",
+          "Phone"
+        ]
+      }
+    },
+    "Police Station": {
+      "Sergeant Pierce's Desk": {
+        "Coffee Mug": [
+          "Police Report"
+        ]
+      },
+      "Evidence Room": {
+        "Evidence Locker 1": [
+          "Fingerprints",
+          "Murder Weapon"
+        ]
+      }
+    },
+    "Lawless District": {
+      "West's Mansion": {
+        "Study": [
+          "Political Files",
+          "Whiskey Glass"
+        ]
+      },
+      "Underground Club": {
+        "Bar": [
+          "Shot Glass",
+          "Cigarette Pack"
+        ]
+      }
+    },
+    "Crime Scene": {
+      "Murder Scene": {
+        "Body": [
+          "Bloodstain",
+          "Footprints"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+name: Noir City
+description: A rainy, noir-style city filled with narrow alleys, neon lights, and a sense of mystery, where secrets lurk in every corner.
+cities:
+  - name: Detective's Office
+    description: A dimly lit office where Detective Marcus Kane works tirelessly, trying to solve the city's most puzzling murders.
+    places:
+      - name: Marcus Kane's Office
+        description: A cluttered office filled with case files, an old desk, and a half-finished bottle of whiskey.
+        areas:
+          - name: Desk
+            description: Marcus Kane's desk, covered with case files, old coffee cups, and a few photographs.
+            objects:
+              - name: Cigarette
+                description: A half-smoked cigarette in an ashtray, a companion during late-night investigations.
+              - name: Case Files
+                description: Files detailing the unsolved murders that Marcus is obsessed with.
+      - name: Filing Cabinet
+        description: A cabinet storing years of unsolved cases, including the one Marcus is currently working on.
+        areas:
+          - name: Drawer 1
+            description: The first drawer filled with cold cases.
+            objects:
+              - name: Old Case File
+                description: A dusty file that could hold the key to the current investigation.
+  - name: Rainy Alley
+    description: A dark alley where the victim's bodies are found, shrouded in mist and rain, casting long shadows.
+    places:
+      - name: Alleyway
+        description: The location of several key events, where Marcus finds clues to the murders.
+        areas:
+          - name: Bloodstain
+            description: A bloodstain on the ground, the latest clue in the ongoing investigation.
+            objects:
+              - name: Bloody Knife
+                description: A knife found near the bloodstain, potentially the murder weapon.
+      - name: Neon Sign
+        description: A flickering neon sign that illuminates the alleyway with an eerie glow.
+        areas:
+          - name: Sign Post
+            description: The rusty post holding up the flickering neon sign.
+            objects:
+              - name: Broken Neon Light
+                description: A broken piece of the neon sign, barely illuminating the alley.
+  - name: Vivienne's Hideout
+    description: A secretive location where Vivienne Stone, the mysterious informant, sends cryptic messages to Marcus.
+    places:
+      - name: Apartment
+        description: A sparse, dimly lit apartment with no signs of personal life, just a table filled with envelopes.
+        areas:
+          - name: Message Desk
+            description: A desk where Vivienne writes her cryptic messages to Marcus.
+            objects:
+              - name: Envelope
+                description: An envelope with a letter containing the next clue to the murder.
+              - name: Phone
+                description: A phone used by Vivienne to communicate with Marcus, never in person.
+  - name: Police Station
+    description: The nerve center of the investigation, where Sergeant Alan Pierce and other officers work to solve the case.
+    places:
+      - name: Sergeant Pierce's Desk
+        description: A desk cluttered with case files and paperwork, where Alan Pierce tries to make sense of the investigation.
+        areas:
+          - name: Coffee Mug
+            description: A half-empty coffee mug, a sign of the long hours spent at the desk.
+            objects:
+              - name: Police Report
+                description: A report detailing the latest murder victim, a constant reminder of the case's urgency.
+      - name: Evidence Room
+        description: A locked room where all the evidence from the cases is stored.
+        areas:
+          - name: Evidence Locker 1
+            description: The first locker filled with evidence from the most recent murders.
+            objects:
+              - name: Fingerprints
+                description: A set of fingerprints found at the crime scene, potentially linked to the killer.
+              - name: Murder Weapon
+                description: A weapon that could be the key to solving the murder, but still unclear.
+  - name: Lawless District
+    description: A dangerous part of the city, where the powerful and corrupt meet, and secrets are traded for favors.
+    places:
+      - name: West's Mansion
+        description: The opulent home of Adrian West, the politician with potential ties to the victims.
+        areas:
+          - name: Study
+            description: A lavish study filled with expensive furniture and records of dubious transactions.
+            objects:
+              - name: Political Files
+                description: Files detailing Adrian West's questionable activities.
+              - name: Whiskey Glass
+                description: An empty glass, a symbol of West's indulgent lifestyle.
+      - name: Underground Club
+        description: A smoky, dimly lit club where deals are made and dangerous people gather.
+        areas:
+          - name: Bar
+            description: A worn-out bar where criminals and corrupt officials mix.
+            objects:
+              - name: Shot Glass
+                description: A shot glass, half-filled with an unknown liquor.
+              - name: Cigarette Pack
+                description: A pack of cigarettes, a common item in the club.
+  - name: Crime Scene
+    description: The location of the latest murder, marked by yellow tape and police officers working to gather evidence.
+    places:
+      - name: Murder Scene
+        description: The location where the body was discovered, still holding the grim traces of the crime.
+        areas:
+          - name: Body
+            description: The body of the latest victim, still lying on the cold concrete floor.
+            objects:
+              - name: Bloodstain
+                description: A large bloodstain marking the spot of the murder.
+              - name: Footprints
+                description: Distinctive footprints leading away from the body, a potential clue.

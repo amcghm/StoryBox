@@ -1,0 +1,26 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Persona name
+!<INPUT 2>! -- Persona's daily plan
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+The following is the daily plan for !<INPUT 1>!:
+!<INPUT 2>!
+
+Please generate a more detailed plan that includes all 24 hourly entries, from 12:00 AM to 11:00 PM
+
+Return the output in the following format:
+
+```json
+[
+    [<Plan>, <The time when the plan occurs, e.g., "12:00 AM">],
+    [..., ...],
+    [..., <The time when the plan occurs, e.g., "11:00 PM">]
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

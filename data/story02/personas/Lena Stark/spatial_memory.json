@@ -1,0 +1,45 @@
+{
+  "Dystopian Future Society": {
+    "Art District": {
+      "Felix's Studio": {
+        "Painting Room": [
+          "Easel",
+          "Paint Brushes",
+          "Paints"
+        ]
+      },
+      "Jasper's Hideout": {
+        "Storage Room": [
+          "Artwork Collection",
+          "Secret Door"
+        ]
+      },
+      "Rebel Headquarters": {
+        "Meeting Room": [
+          "Map",
+          "Communication Device"
+        ]
+      }
+    },
+    "Government Controlled Zone": {
+      "Ministry of Art Censorship": {
+        "Command Center": [
+          "Surveillance Monitor",
+          "Censorship Files"
+        ]
+      },
+      "Lena's Office": {
+        "Desk": [
+          "Report Files",
+          "Phone"
+        ]
+      },
+      "Art Destruction Facility": {
+        "Incineration Room": [
+          "Flame Thrower",
+          "Artwork Pile"
+        ]
+      }
+    }
+  }
+}

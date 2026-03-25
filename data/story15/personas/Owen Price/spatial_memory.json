@@ -1,0 +1,45 @@
+{
+  "Isolated Art Studio": {
+    "Art Studio": {
+      "Main Studio": {
+        "Painting Space": [
+          "Canvas",
+          "Paintbrush",
+          "Easel"
+        ]
+      },
+      "Gallery": {
+        "Viewing Area": [
+          "Frame",
+          "Spotlights"
+        ]
+      },
+      "Victor's Lair": {
+        "Altar": [
+          "Candles",
+          "Scroll"
+        ]
+      },
+      "Cliffside": {
+        "Viewing Point": [
+          "Telescope",
+          "Rock Seat"
+        ]
+      }
+    },
+    "Village": {
+      "Local Tavern": {
+        "Bar Area": [
+          "Tankard",
+          "Fire Pit"
+        ]
+      },
+      "Market Square": {
+        "Fountain": [
+          "Statue",
+          "Water Basin"
+        ]
+      }
+    }
+  }
+}

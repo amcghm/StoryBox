@@ -1,0 +1,46 @@
+{
+  "Hidden Kingdom": {
+    "Subterranean City": {
+      "Royal Palace": {
+        "Throne Room": [
+          "Throne",
+          "Royal Banner"
+        ],
+        "Council Chamber": [
+          "Long Table",
+          "Candles"
+        ]
+      },
+      "Rebel Hideout": {
+        "Strategy Room": [
+          "Map of the Kingdom",
+          "Weapons Cache"
+        ],
+        "Barracks": [
+          "Bunk Beds",
+          "Supplies"
+        ]
+      },
+      "Guardian's Sanctum": {
+        "Library": [
+          "Ancient Scrolls",
+          "Reading Table"
+        ],
+        "Ritual Room": [
+          "Altar",
+          "Crystals"
+        ]
+      },
+      "Cavern of Echoes": {
+        "Main Chamber": [
+          "Stalactites",
+          "Echo Stones"
+        ],
+        "Hidden Path": [
+          "Lantern",
+          "Signposts"
+        ]
+      }
+    }
+  }
+}

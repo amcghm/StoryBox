@@ -1,0 +1,29 @@
+Variables:
+!<INPUT 0>! -- Summary of the story so far
+!<INPUT 1>! -- Current story title
+
+<commentblockmarker>###</commentblockmarker>
+You are a skilled storyteller and analyst. Based on the provided summaries of events and the story title, determine the most fitting story type that best captures the narrative and themes of the story so far.
+
+Here are the summaries of events from the past few days:
+!<INPUT 0>!
+
+The current story title is:
+!<INPUT 1>!
+
+Analyze the event summaries and the current story title to understand the overall tone, themes, and key elements of the story.
+Based on your analysis, generate a story type that accurately reflects the genre, themes, and narrative direction. Common story types could include (but are not limited to): Narrative, Adventure, Mystery, Romance, Fantasy, Thriller, Historical Fiction, Drama, etc.
+Provide a concise and clear story type that best describes the current direction of the story.
+
+Return the output in the following format:
+
+```json
+{
+    "story_type": "<Your generated story type>"
+}
+
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

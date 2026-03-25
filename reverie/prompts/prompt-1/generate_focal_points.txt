@@ -1,0 +1,23 @@
+Variables:
+!<INPUT 0>! -- Memories
+!<INPUT 1>! -- Number of focal points
+
+<commentblockmarker>###</commentblockmarker>
+The following is someone's memories:
+!<INPUT 0>!
+
+Based on the above memories, please provide !<INPUT 1>! possible high-level questions we can answer about the subjects grounded in the memories.
+
+Return the output in the following format:
+
+```json
+[
+    "<question 1>",
+    "<question 2>",
+    ...
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

@@ -1,0 +1,38 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Reverie date now
+!<INPUT 2>! -- Persona's name
+!<INPUT 3>! -- Yesterday's Daily Plan Requirements
+
+<commentblockmarker>###</commentblockmarker>
+You are an expert in character behavior analysis and task planning. Your task is to generate a list of daily plan requirements for a character. These requirements should align with the character's personality traits, lifestyle, and current situation, while taking into account the evolving nature of their goals and responsibilities.
+
+!<INPUT 0>!
+
+Today is !<INPUT 1>!.
+
+Character Name: !<INPUT 2>!
+
+Yesterday's Daily Plan Requirements:
+!<INPUT 3>!
+
+Based on the inputs above, generate a detailed list of daily plan requirements for the character for today. Ensure the following:
+
+1. You can refer to yesterday's daily plan requirements, and you also need to make certain changes to today's daily plan requirements.
+2. The requirements align with the character's ISS, reflecting their innate and learned traits, lifestyle, and current state.
+3. The requirements build logically on yesterday's daily plan requirements while adapting to the character's current goals and needs.
+4. Include specific, actionable requirements that guide the creation of today's detailed daily plan.
+
+Return the output in the following format:
+
+```json
+[
+    "...",
+    "...",
+    "..."
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

@@ -1,0 +1,102 @@
+name: Frozen City
+description: A modern-day city that has been plunged into an eerie state of paralysis where time has frozen, leaving only a small group of individuals unaffected.
+cities:
+  - name: City Center
+    description: The bustling heart of the city, now eerily silent and frozen in time.
+    places:
+      - name: Highland Apartments
+        description: A residential building where Claire Matthews resides.
+        areas:
+          - name: Room 704
+            description: Claire Matthews' apartment, filled with scientific equipment and research notes.
+            objects:
+              - name: Research Desk
+                description: A desk cluttered with scientific instruments and papers.
+              - name: Whiteboard
+                description: A whiteboard covered in equations and theories about the time freeze.
+      - name: Central Library
+        description: A grand library filled with books and resources, now frozen in time.
+        areas:
+          - name: Research Section
+            description: A section filled with scientific journals and texts.
+            objects:
+              - name: Bookshelves
+                description: Shelves containing volumes of research material.
+              - name: Reading Table
+                description: A table where visitors could study and read.
+      - name: Tech Hub
+        description: A high-tech office building where Chris Tanaka works.
+        areas:
+          - name: Room 5
+            description: Chris Tanaka's workspace filled with computers and technical equipment.
+            objects:
+              - name: Server Rack
+                description: A rack of servers containing important data.
+              - name: Workstation
+                description: A computer station set up for coding and analysis.
+      - name: Police Station
+        description: The main station where Sophia Lutz worked, now a base of operations.
+        areas:
+          - name: Office 2
+            description: Sophia's office, now used for organizing group safety.
+            objects:
+              - name: Filing Cabinet
+                description: A cabinet with case files and documents.
+              - name: Radio
+                description: A communication device used for coordinating with others.
+      - name: Abandoned Warehouse
+        description: A large, empty building now serving as Tommy Harris' hideout.
+        areas:
+          - name: Room 3
+            description: A makeshift living space set up by Tommy.
+            objects:
+              - name: Sleeping Bag
+                description: A sleeping bag laid out on the floor.
+              - name: Backpack
+                description: A backpack filled with scavenged supplies.
+      - name: City Park
+        description: A large, open park now frozen in a moment of stillness.
+        areas:
+          - name: Fountain Square
+            description: A central area with a large, frozen fountain.
+            objects:
+              - name: Fountain
+                description: A beautiful fountain with water frozen in mid-air.
+              - name: Benches
+                description: Wooden benches placed around the fountain.
+  - name: Suburbs
+    description: The quieter outskirts of the city where families reside.
+    places:
+      - name: Elmwood House
+        description: A suburban home where Dr. Harold Reed lives.
+        areas:
+          - name: Unit 12
+            description: Dr. Reed's home, filled with books and old research.
+            objects:
+              - name: Study Desk
+                description: A desk with a lamp and stacks of papers.
+              - name: Armchair
+                description: A comfortable chair used for reading and reflection.
+      - name: Maple Street
+        description: A residential street where Maya Harrison lives.
+        areas:
+          - name: House 45
+            description: Maya's home, paused in the midst of a personal argument.
+            objects:
+              - name: Dining Table
+                description: A table with an unfinished meal.
+              - name: Family Photo
+                description: A photo of Maya and her partner, frozen on the mantelpiece.
+  - name: Industrial District
+    description: An area filled with factories and warehouses, now eerily quiet.
+    places:
+      - name: Old Factory
+        description: An abandoned factory, now used for exploration and scavenging.
+        areas:
+          - name: Production Floor
+            description: A large, open space with machinery frozen in time.
+            objects:
+              - name: Conveyor Belt
+                description: A conveyor belt stopped mid-operation.
+              - name: Tool Chest
+                description: A chest filled with various tools and equipment.

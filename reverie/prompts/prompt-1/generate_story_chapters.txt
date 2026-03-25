@@ -1,0 +1,44 @@
+Variables:
+!<INPUT 0>! -- Summary of the story so far
+!<INPUT 1>! -- Story title
+!<INPUT 2>! -- Story type
+!<INPUT 3>! -- Story background
+!<INPUT 4>! -- Story themes
+!<INPUT 5>! -- Number of story chapters
+
+<commentblockmarker>###</commentblockmarker>
+You are an expert storyteller and narrative architect. Based on the provided summaries of past events, the story title, type, background, and themes, your task is to generate an outline of the story with !<INPUT 5>! chapters. Each chapter should expand the narrative, deepen character development, and explore the central themes of the story.
+
+Here are the summaries of events from the past few days:
+!<INPUT 0>!
+
+Story Title: !<INPUT 1>!
+Story Type: !<INPUT 2>!
+Story Background: !<INPUT 3>!
+
+Story Themes:
+!<INPUT 4>!
+
+These are the central ideas, conflicts, and emotions that drive the narrative.
+
+Your task is to generate !<INPUT 5>! distinct and compelling chapters that align with the story's title, type, background, and themes. Each chapter should have a title and a brief summary of the main events that occur within that chapter. The chapters should fit within the overarching narrative and reflect the key themes of the story.
+
+Return the output in the following format:
+
+```json
+[
+    {
+        "title": <chapter 1 title>,
+        "summary": <chapter 1 summary>
+    },
+    {
+        "title": <chapter 2 title>,
+        "summary": <chapter 2 summary>
+    },
+    ...
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

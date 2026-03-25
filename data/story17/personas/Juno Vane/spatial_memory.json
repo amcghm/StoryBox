@@ -1,0 +1,56 @@
+{
+  "Cyberpunk Dreamscape City": {
+    "Dreamscape District": {
+      "Dream Vault": {
+        "Control Room": [
+          "Dream Interface",
+          "Hacking Terminal"
+        ]
+      },
+      "Neural Lab": {
+        "Research Room": [
+          "Neural Imager",
+          "Dream Extractor"
+        ]
+      },
+      "The Blackout Zone": {
+        "Altered Reality": [
+          "Glitch Field",
+          "Memory Fragments"
+        ]
+      },
+      "Dream Thieves' Hideout": {
+        "Strategy Room": [
+          "Dream Maps",
+          "Virtual Console"
+        ]
+      },
+      "Cyberpunk Streets": {
+        "Alleyways": [
+          "Black Market Implants",
+          "Holo-Shadows"
+        ]
+      }
+    },
+    "Mindscape Institute": {
+      "Dream Processing Room": {
+        "Memory Chamber": [
+          "Dream Recorder",
+          "Psycho-Scanner"
+        ]
+      },
+      "Simulation Chamber": {
+        "Dream Scenario Generator": [
+          "Virtual Projection Screen",
+          "Control Panel"
+        ]
+      },
+      "Dream Research Hub": {
+        "Cognitive Lab": [
+          "Dream Analyzer",
+          "Neurostimulation Equipment"
+        ]
+      }
+    }
+  }
+}

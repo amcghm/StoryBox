@@ -1,0 +1,46 @@
+{
+  "Ancient Temple Expedition": {
+    "Jungle Camp": {
+      "Main Tent": {
+        "Conference Table": [
+          "Maps",
+          "Projector"
+        ]
+      },
+      "Artifact Storage": {
+        "Display Shelves": [
+          "Pottery",
+          "Tools"
+        ]
+      },
+      "Supplies Tent": {
+        "Food Supplies": [
+          "Canned Goods",
+          "Water Containers"
+        ],
+        "Medical Supplies": [
+          "First Aid Kit",
+          "Insect Repellent"
+        ]
+      }
+    },
+    "Temple Site": {
+      "Temple Entrance": {
+        "Carved Archway": [
+          "Inscription Stone",
+          "Guardian Statues"
+        ]
+      },
+      "Inner Chamber": {
+        "Altars": [
+          "Offering Bowls",
+          "Idol"
+        ],
+        "Wall Murals": [
+          "Mural Paintings",
+          "Hidden Compartment"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+name: Gritty Coastal City
+description: A city filled with crime and corruption, where shadows hide secrets and danger lurks in every corner.
+cities:
+  - name: Dark Alleys
+    description: Dim-lit alleyways where illicit activities take place.
+    places:
+      - name: Abandoned Warehouse
+        description: A derelict warehouse rumored to be a hideout for criminals.
+        areas:
+          - name: Loading Dock
+            description: An area for unloading goods, often used for illegal transactions.
+            objects:
+              - name: Crates
+                description: Stacks of crates containing unknown products.
+              - name: Flashlight
+                description: A portable light source for navigating dark spaces.
+      - name: Seedy Nightclub
+        description: A low-lit establishment where shady deals are made.
+        areas:
+          - name: Main Floor
+            description: The area where patrons enjoy music and drinks, often frequented by unsavory characters.
+            objects:
+              - name: Bar Counter
+                description: A place to purchase drinks, manned by a wary bartender.
+              - name: Roulette Table
+                description: A gambling table that attracts risky players.
+      - name: Street Corner
+        description: A hotspot for drug deals and street interactions.
+        areas:
+          - name: Graffiti Wall
+            description: A wall covered in graffiti, often serving as a message board for the underworld.
+            objects:
+              - name: Spray Paint
+                description: Cans of paint used for tagging.
+              - name: Old Newspaper
+                description: A weathered paper with news of recent crimes.
+  - name: Investigation Headquarters
+    description: Jack's makeshift office where he gathers information and plans his next moves.
+    places:
+      - name: Office Space
+        description: A cluttered room filled with case files, clues, and a computer.
+        areas:
+          - name: Desk
+            description: A desk covered with papers and a laptop for research.
+            objects:
+              - name: Coffee Mug
+                description: A mug that fuels late-night investigations.
+              - name: Magnifying Glass
+                description: A tool for examining details closely.
+          - name: Bulletin Board
+            description: A board filled with photos and notes connected to Jack's investigation.
+            objects:
+              - name: Pins
+                description: Small pins used to attach notes to the board.
+              - name: String
+                description: Twine for connecting pieces of the puzzle.
+  - name: Police Station
+    description: The local police headquarters where Detective Claire Moore works.
+    places:
+      - name: Detective's Office
+        description: A small office filled with case files and evidence.
+        areas:
+          - name: Desk
+            description: An organized workspace with essential tools for investigations.
+            objects:
+              - name: Notepad
+                description: A pad used for taking notes during interviews.
+              - name: File Cabinet
+                description: A place to store important case documents.
+      - name: Briefing Room
+        description: A room where detectives gather to discuss cases and share information.
+        areas:
+          - name: Conference Table
+            description: A table where meetings are held.
+            objects:
+              - name: Whiteboard
+                description: A board for jotting down key points and strategies.
+              - name: Projector
+                description: A device used to present case information.

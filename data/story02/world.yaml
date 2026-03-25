@@ -1,0 +1,71 @@
+name: Dystopian Future Society
+description: A totalitarian society where all forms of art are illegal, and government surveillance is constant.
+cities:
+  - name: Art District
+    description: A hidden area where underground artists gather to defy the regime.
+    places:
+      - name: Felix's Studio
+        description: A secretive space where Felix creates forbidden masterpieces.
+        areas:
+          - name: Painting Room
+            description: A room filled with canvases, paints, and brushes, where Felix creates his art.
+            objects:
+              - name: Easel
+                description: A stand for holding canvases while painting.
+              - name: Paint Brushes
+                description: Tools used for applying paint to the canvas.
+              - name: Paints
+                description: Various colors of paint used for creating art.
+      - name: Jasper's Hideout
+        description: A covert location where Felix's artwork is distributed to the underground movement.
+        areas:
+          - name: Storage Room
+            description: A room filled with hidden artworks waiting to be distributed.
+            objects:
+              - name: Artwork Collection
+                description: A collection of banned paintings and sculptures.
+              - name: Secret Door
+                description: A hidden entrance for members of the underground art community.
+      - name: Rebel Headquarters
+        description: A safe house where rebels gather to strategize and resist the government's censorship.
+        areas:
+          - name: Meeting Room
+            description: A room where rebels discuss plans and coordinate efforts.
+            objects:
+              - name: Map
+                description: A map of the city's surveillance systems and hidden art locations.
+              - name: Communication Device
+                description: A device used to relay messages within the underground network.
+  - name: Government Controlled Zone
+    description: A heavily surveilled area where the government enforces art censorship and monitors dissenters.
+    places:
+      - name: Ministry of Art Censorship
+        description: The government's center for monitoring and destroying illegal art.
+        areas:
+          - name: Command Center
+            description: A room where high-ranking officials track artists and censor artwork.
+            objects:
+              - name: Surveillance Monitor
+                description: A screen displaying live surveillance footage of suspected rebel locations.
+              - name: Censorship Files
+                description: A collection of files containing information on banned artworks and artists.
+      - name: Lena's Office
+        description: A government office where Lena Stark tracks and hunts down rebellious artists.
+        areas:
+          - name: Desk
+            description: Lena's workspace, where she plans her operations to catch Felix.
+            objects:
+              - name: Report Files
+                description: Files containing information about underground art movements and targets.
+              - name: Phone
+                description: A device for communicating with other government enforcers.
+      - name: Art Destruction Facility
+        description: A facility where all captured artworks are destroyed by the government.
+        areas:
+          - name: Incineration Room
+            description: A room where illegal artworks are burned to prevent rebellion.
+            objects:
+              - name: Flame Thrower
+                description: A device used to destroy banned art.
+              - name: Artwork Pile
+                description: A collection of art being prepared for destruction.

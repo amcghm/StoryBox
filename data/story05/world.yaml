@@ -1,0 +1,71 @@
+name: Lawrence Estate
+description: An ancient, decaying mansion in a remote village surrounded by mist and dense forests, housing dark secrets and a family curse.
+cities:
+  - name: Remote Village
+    description: A secluded village enveloped in mist and surrounded by dense forests, home to the Lawrence Estate.
+    places:
+      - name: Lawrence Mansion
+        description: The ancestral home of the Lawrence family, filled with secrets and haunted by a mysterious specter.
+        areas:
+          - name: Foyer
+            description: The grand entrance of the mansion, adorned with antique furniture and portraits of the ancestors.
+            objects:
+              - name: Chandelier
+                description: An ornate chandelier that illuminates the foyer, casting eerie shadows.
+              - name: Portrait of Ancestors
+                description: A large painting depicting the Lawrence family lineage.
+          - name: Library
+            description: A dusty room filled with old books and historical documents related to the family's past.
+            objects:
+              - name: Ancient Books
+                description: Books containing knowledge about the family's history and the curse.
+              - name: Reading Table
+                description: A table for studying and examining the old texts.
+          - name: Study
+            description: A small, dimly lit room where Ava's father once worked, filled with personal belongings.
+            objects:
+              - name: Desk
+                description: A wooden desk cluttered with papers and old letters.
+              - name: Typewriter
+                description: An old typewriter used by Edward Lawrence for his writings.
+          - name: Attic
+            description: A dark and dusty attic filled with forgotten memories and hidden secrets.
+            objects:
+              - name: Old Trunk
+                description: A trunk containing family heirlooms and mysterious artifacts.
+              - name: Mirror
+                description: An antique mirror rumored to reveal the truth about the curse.
+          - name: Garden
+            description: An overgrown garden surrounding the mansion, filled with wilted flowers and shadowy corners.
+            objects:
+              - name: Fountain
+                description: A crumbling fountain that used to be the centerpiece of the garden.
+              - name: Stone Bench
+                description: A weathered bench for contemplation amidst the overgrown foliage.
+      - name: Village Square
+        description: The center of the remote village where locals gather and share stories about the mansion.
+        areas:
+          - name: Town Hall
+            description: A building where villagers meet and discuss important matters.
+            objects:
+              - name: Bulletin Board
+                description: A board displaying news and events relevant to the village.
+              - name: Meeting Table
+                description: A large table for community gatherings.
+          - name: Historical Society
+            description: A small building dedicated to preserving the history of the village and the mansion.
+            objects:
+              - name: Archive Room
+                description: A room filled with documents and artifacts related to the village's history.
+              - name: Display Cases
+                description: Cases showcasing historical items, including those related to the Lawrence family.
+      - name: Nearby Forest
+        description: A dense forest surrounding the village, filled with mystery and whispers of the past.
+        areas:
+          - name: Pathway
+            description: A narrow path leading through the forest, rumored to lead to the mansion's hidden secrets.
+            objects:
+              - name: Trail Markers
+                description: Signs depicting the history and legends of the area.
+              - name: Old Stone Ruins
+                description: The ruins of an ancient structure, said to be connected to the mansion's curse.

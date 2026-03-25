@@ -1,0 +1,22 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Persona first name
+
+<commentblockmarker>###</commentblockmarker>
+Information about !<INPUT 1>!:
+
+!<INPUT 0>!
+
+What time does !<INPUT 1>! wake up?
+
+Return the output in the following format:
+
+```json
+{
+    "wake_up_hour": <12-hour format, such as "08:00 AM">
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

@@ -1,0 +1,29 @@
+Variables:
+!<INPUT 0>! -- Full content of the chapter
+
+<commentblockmarker>###</commentblockmarker>
+You are an expert narrative analyst and editor. Your task is to analyze the content of a chapter and generate a concise and coherent summary that captures the chapter's key events, character developments, conflicts, and resolutions.
+
+Here is the full content of the chapter:
+!<INPUT 0>!
+
+Your task:
+Generate a clear, engaging, and precise summary of the chapter, focusing on:
+1. The main events that occur in the chapter.
+2. Key developments for central characters.
+3. Major conflicts and how they escalate or are resolved.
+4. Any significant shifts in the story's direction, tone, or relationships.
+
+The summary must distill the essence of the chapter while maintaining its narrative impact.
+
+Return the output in the following format:
+
+```json
+{
+    "summary": "<The summary of this chapter>"
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

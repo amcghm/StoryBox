@@ -1,0 +1,37 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- World with description
+!<INPUT 2>! -- Personas' info
+!<INPUT 3>! -- Persona's name
+!<INPUT 4>! -- Focused event info
+!<INPUT 5>! -- Persona's daily plan
+!<INPUT 6>! -- Reverie datetime now
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+World:
+!<INPUT 1>!
+
+Personas in this world:
+!<INPUT 2>!
+
+!<INPUT 3>! now are focusing the event:
+!<INPUT 4>!
+
+!<INPUT 3>!'s daily plan:
+!<INPUT 5>!
+
+The current time is !<INPUT 6>!. Who will !<INPUT 3>! be chatting with?
+
+Return the output in the following format:
+
+```json
+{
+    "chat": <name of another persona>
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

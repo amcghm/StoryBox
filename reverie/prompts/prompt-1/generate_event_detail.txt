@@ -1,0 +1,30 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Current time
+!<INPUT 2>! -- Current location
+!<INPUT 3>! -- Persona name
+!<INPUT 4>! -- Persona's current event
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+Current time: !<INPUT 1>!
+Current location: !<INPUT 2>!
+
+The current event of !<INPUT 3>! is:
+!<INPUT 4>!
+
+The description of this event is quite abstract. Now, imagine you are an omniscient observer, able to perceive every intricate detail of this occurrence. Provide a vivid, detailed account of the event, focusing on the specific time and location where it unfolds. Use a third-person perspective to bring the scene to life, incorporating sensory details and environmental nuances. Additionally, delve into the inner thoughts and emotions of the individuals involved, offering rich psychological insights to deepen the narrative.
+
+Return the output in the following format:
+
+```json
+{
+    "detail": "<details of this event>"
+}
+
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

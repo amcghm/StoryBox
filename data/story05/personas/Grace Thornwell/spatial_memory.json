@@ -1,0 +1,44 @@
+{
+  "Lawrence Estate": {
+    "Remote Village": {
+      "Lawrence Mansion": {
+        "Foyer": [
+          "Chandelier",
+          "Portrait of Ancestors"
+        ],
+        "Library": [
+          "Ancient Books",
+          "Reading Table"
+        ],
+        "Study": [
+          "Desk",
+          "Typewriter"
+        ],
+        "Attic": [
+          "Old Trunk",
+          "Mirror"
+        ],
+        "Garden": [
+          "Fountain",
+          "Stone Bench"
+        ]
+      },
+      "Village Square": {
+        "Town Hall": [
+          "Bulletin Board",
+          "Meeting Table"
+        ],
+        "Historical Society": [
+          "Archive Room",
+          "Display Cases"
+        ]
+      },
+      "Nearby Forest": {
+        "Pathway": [
+          "Trail Markers",
+          "Old Stone Ruins"
+        ]
+      }
+    }
+  }
+}

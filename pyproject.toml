@@ -1,0 +1,39 @@
+[project]
+name = "storybox"
+version = "0.1.0"
+description = "storybox"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "einops>=0.8.2",
+    "faiss-cpu>=1.13.2",
+    "langchain-community>=0.4.1",
+    "langchain-huggingface>=1.2.1",
+    "langchain-openai>=1.1.12",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "openai>=2.29.0",
+    "pandas>=3.0.1",
+    "peft>=0.18.1",
+    "protobuf>=7.34.1",
+    "pyyaml>=6.0.3",
+    "sentencepiece>=0.2.1",
+    "sqlalchemy>=2.0.48",
+    "torch==2.10.0",
+    "tqdm>=4.67.3",
+    "transformers==4.47.1",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }

@@ -1,0 +1,64 @@
+{
+  "Hidden Town": {
+    "Town Center": {
+      "Town Library": {
+        "Library Main Hall": [
+          "Bookshelves",
+          "Reading Table"
+        ]
+      },
+      "Town Hall": {
+        "Mayor’s Office": [
+          "Desk",
+          "File Cabinet"
+        ]
+      },
+      "Local Tavern": {
+        "Bar Area": [
+          "Bar Counter",
+          "Wooden Chairs"
+        ]
+      },
+      "Town Square": {
+        "Fountain": [
+          "Stone Bench",
+          "Historic Plaque"
+        ]
+      }
+    },
+    "Forest Edge": {
+      "Old Mine Entrance": {
+        "Mine Tunnel": [
+          "Rusted Lantern",
+          "Old Pickaxe"
+        ]
+      },
+      "Abandoned Cabin": {
+        "Living Room": [
+          "Fireplace",
+          "Rocking Chair"
+        ]
+      },
+      "Hidden Grove": {
+        "Sacred Stone": [
+          "Carved Symbol",
+          "Mysterious Map"
+        ]
+      }
+    },
+    "Historical Society": {
+      "Research Room": {
+        "Artifact Display": [
+          "Old Journal",
+          "Ancient Coin"
+        ]
+      },
+      "Library and Archive": {
+        "Archive Shelves": [
+          "Old Map",
+          "Town Chronicle"
+        ]
+      }
+    }
+  }
+}

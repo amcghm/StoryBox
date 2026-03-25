@@ -1,0 +1,89 @@
+name: Underground Maze Facility
+description: A high-tech underground facility with a sprawling maze that seems to change its structure every few hours.
+cities:
+  - name: Maze Complex
+    description: A complex of interconnected rooms and passageways designed to test the limits of human survival.
+    places:
+      - name: Control Room
+        description: The central hub for monitoring the maze's structure and systems.
+        areas:
+          - name: Main Console
+            description: A large console with screens displaying the maze layout and status.
+            objects:
+              - name: Control Panel
+                description: A panel for managing maze configurations.
+              - name: Communication Device
+                description: A device for group communication.
+      - name: Medical Bay
+        description: A facility equipped for treating injuries and medical emergencies.
+        areas:
+          - name: Treatment Room
+            description: A room with medical supplies for emergency treatment.
+            objects:
+              - name: First Aid Kit
+                description: A kit containing essential medical supplies.
+              - name: Medical Bed
+                description: A bed for patients receiving treatment.
+      - name: Research Lab
+        description: A lab containing equipment for analyzing the maze and studying its properties.
+        areas:
+          - name: Analysis Station
+            description: A workstation for testing collected samples.
+            objects:
+              - name: Microscope
+                description: Equipment for examining small details.
+              - name: Sample Containers
+                description: Containers for storing samples.
+      - name: Living Quarters
+        description: A shared space for the group to rest and strategize.
+        areas:
+          - name: Common Room
+            description: A room for group gatherings and discussions.
+            objects:
+              - name: Couch
+                description: A comfortable seating arrangement for relaxation.
+              - name: Coffee Table
+                description: A table for placing drinks and snacks.
+      - name: Escape Route
+        description: The path leading to the exit of the maze, marked by clues and obstacles.
+        areas:
+          - name: Exit Door
+            description: A large, reinforced door requiring a code to unlock.
+            objects:
+              - name: Security Panel
+                description: A panel for entering the escape code.
+              - name: Emergency Kit
+                description: A kit with supplies for the final escape.
+  - name: Maze Environment
+    description: The ever-changing structure of the maze filled with challenges.
+    places:
+      - name: Hallway
+        description: A long corridor leading to different sections of the maze.
+        areas:
+          - name: Light Switch
+            description: A switch that controls the lighting in the hallway.
+            objects:
+              - name: Flashlight
+                description: A portable light source for dark areas.
+              - name: Map
+                description: A map of the current maze layout.
+      - name: Trap Room
+        description: A room designed with various traps to test the group's skills.
+        areas:
+          - name: Puzzle Area
+            description: An area where the team must solve puzzles to proceed.
+            objects:
+              - name: Puzzle Box
+                description: A box that holds a challenge for the team.
+              - name: Clue Board
+                description: A board containing hints for solving puzzles.
+      - name: Observation Deck
+        description: A vantage point for observing the maze's dynamics.
+        areas:
+          - name: Viewing Window
+            description: A large window overlooking the maze layout.
+            objects:
+              - name: Binoculars
+                description: A tool for zooming in on distant areas.
+              - name: Notepad
+                description: A pad for taking notes on observations.

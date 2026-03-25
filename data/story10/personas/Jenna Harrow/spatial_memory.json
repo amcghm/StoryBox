@@ -1,0 +1,52 @@
+{
+  "City of Shadows": {
+    "Wealthy District": {
+      "Elite Shopping Mall": {
+        "Fashion Store": [
+          "Luxury Handbag",
+          "Designer Shoes"
+        ],
+        "Fine Dining Restaurant": [
+          "Wine List",
+          "Menu"
+        ]
+      },
+      "High-Rise Apartments": {
+        "Penthouse Suite": [
+          "King-size Bed",
+          "Home Theater System"
+        ]
+      }
+    },
+    "Poor District": {
+      "Abandoned Warehouse": {
+        "Hidden Room": [
+          "Stolen Goods",
+          "Safe"
+        ]
+      },
+      "Local Diner": {
+        "Counter": [
+          "Coffee Cup",
+          "Menu Board"
+        ],
+        "Booths": [
+          "Table",
+          "Vinyl Booth"
+        ]
+      }
+    },
+    "Dark Alley": {
+      "Underground Bar": {
+        "Bar Counter": [
+          "Bottle of Whiskey",
+          "Glass"
+        ],
+        "Backroom": [
+          "Poker Table",
+          "Stack of Chips"
+        ]
+      }
+    }
+  }
+}

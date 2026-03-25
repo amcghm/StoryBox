@@ -1,0 +1,46 @@
+{
+  "Small Town": {
+    "Town Center": {
+      "Main Square": {
+        "Town Fountain": [
+          "Benches",
+          "Flower Beds"
+        ]
+      },
+      "Town Hall": {
+        "Mayor's Office": [
+          "Desk",
+          "Bookcase"
+        ]
+      }
+    },
+    "Residential Area": {
+      "Sammy's House": {
+        "Living Room": [
+          "Sofa",
+          "Coffee Table"
+        ]
+      },
+      "Lily's House": {
+        "Kitchen": [
+          "Spice Rack",
+          "Dining Table"
+        ]
+      }
+    },
+    "Mysterious Woods": {
+      "Enchanted Glade": {
+        "Portal Stone": [
+          "Ancient Symbols",
+          "Shadowy Figures"
+        ]
+      },
+      "Old Cabin": {
+        "Living Space": [
+          "Rusty Lantern",
+          "Journal"
+        ]
+      }
+    }
+  }
+}

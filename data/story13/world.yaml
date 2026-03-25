@@ -1,0 +1,72 @@
+name: Small Town
+description: A picturesque but eerie small town with hidden portals to other dimensions.
+cities:
+  - name: Town Center
+    description: The heart of the town, bustling with shops and strange occurrences.
+    places:
+      - name: Main Square
+        description: A central area where townsfolk gather and events are held.
+        areas:
+          - name: Town Fountain
+            description: A beautiful fountain that seems to have a strange glow.
+            objects:
+              - name: Benches
+                description: Wooden benches for people to sit and watch the happenings.
+              - name: Flower Beds
+                description: Colorful flowers that seem to whisper secrets.
+      - name: Town Hall
+        description: The administrative center of the town, housing important meetings.
+        areas:
+          - name: Mayor's Office
+            description: The office of Mayor Grace Turner, filled with town secrets.
+            objects:
+              - name: Desk
+                description: A large desk cluttered with papers and mysterious artifacts.
+              - name: Bookcase
+                description: A shelf filled with books about local history and folklore.
+  - name: Residential Area
+    description: A neighborhood where the teenagers live, filled with old houses and mysteries.
+    places:
+      - name: Sammy's House
+        description: The home of Sammy Rivers, filled with adventurous spirit.
+        areas:
+          - name: Living Room
+            description: A cozy room where friends gather and plan their adventures.
+            objects:
+              - name: Sofa
+                description: A comfortable sofa perfect for late-night discussions.
+              - name: Coffee Table
+                description: A table adorned with snacks and maps of the town.
+      - name: Lily's House
+        description: A quaint cottage with a garden full of herbs and odd plants.
+        areas:
+          - name: Kitchen
+            description: A warm kitchen where Lily conducts her experiments.
+            objects:
+              - name: Spice Rack
+                description: A collection of unusual herbs and spices.
+              - name: Dining Table
+                description: A table often used for late-night brainstorming sessions.
+  - name: Mysterious Woods
+    description: A dense forest surrounding the town, rumored to hide portals to other dimensions.
+    places:
+      - name: Enchanted Glade
+        description: A hidden clearing that feels otherworldly.
+        areas:
+          - name: Portal Stone
+            description: A large stone that glows, serving as a gateway to other realms.
+            objects:
+              - name: Ancient Symbols
+                description: Mysterious markings that hint at the stone's power.
+              - name: Shadowy Figures
+                description: Faint outlines that appear and disappear, watching from the trees.
+      - name: Old Cabin
+        description: An abandoned cabin rumored to hold secrets of the town.
+        areas:
+          - name: Living Space
+            description: A dusty room filled with old furniture and forgotten memories.
+            objects:
+              - name: Rusty Lantern
+                description: An old lantern that flickers when danger is near.
+              - name: Journal
+                description: A diary containing notes about the town's mystical occurrences.

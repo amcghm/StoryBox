@@ -1,0 +1,33 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Reverie datetime now
+!<INPUT 2>! -- Persona first name
+!<INPUT 3>! -- Today's plan for persona
+!<INPUT 4>! -- Encountered events
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+Today's plan for !<INPUT 2>! includes:
+
+!<INPUT 3>!
+
+Now, the events encountered by !<INPUT 2>! are:
+
+!<INPUT 4>!
+
+The current time is !<INPUT 1>!.
+
+The event ID that !<INPUT 2>! might focus on first is:
+
+Return the output in the following format:
+
+```json
+{
+    "event_id": <the event ID, such as 3>
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

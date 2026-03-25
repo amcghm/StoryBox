@@ -1,0 +1,52 @@
+{
+  "Deep-Space Mission Station": {
+    "Space Station Living Quarters": {
+      "Crew Dormitory": {
+        "Room 401": [
+          "Single Bed",
+          "Personal Desk"
+        ]
+      },
+      "Command Deck": {
+        "Control Room": [
+          "Captain's Chair",
+          "Communications Console"
+        ]
+      },
+      "Medical Bay": {
+        "Recovery Room": [
+          "Medical Bed",
+          "Diagnostic Equipment"
+        ]
+      }
+    },
+    "Alien Vessel Research Area": {
+      "Research Lab": {
+        "Containment Chamber": [
+          "Substance Containment Box",
+          "Analyzer"
+        ]
+      },
+      "Hall of Visions": {
+        "Visionary Space": [
+          "Holographic Projector",
+          "Reality Filter"
+        ]
+      }
+    },
+    "Planetary Surface Operations": {
+      "Landing Zone": {
+        "Shuttle Docking Station": [
+          "Docking Clamp",
+          "Planetary Exploration Gear"
+        ]
+      },
+      "Alien Vessel Exterior": {
+        "Hatch Entry": [
+          "Alien Door Mechanism",
+          "Bio-Scanner"
+        ]
+      }
+    }
+  }
+}

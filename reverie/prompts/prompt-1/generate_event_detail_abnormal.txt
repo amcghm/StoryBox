@@ -1,0 +1,30 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Current time
+!<INPUT 2>! -- Current location
+!<INPUT 3>! -- Persona name
+!<INPUT 4>! -- Persona's current event
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+Current time: !<INPUT 1>!
+Current location: !<INPUT 2>!
+
+The current event of !<INPUT 3>! is:
+!<INPUT 4>!
+
+The description of this event is rather abstract. Now, assume the role of an all-seeing deity, capable of unveiling every hidden detail of the scene. Given that !<INPUT 3>! has taken on an unusual and extraordinary nature, the event's detailed description may also reflect this abnormality. Provide a richly detailed account of the event, considering the specific time and location in which it occurs. Use a third-person perspective to vividly portray the scene, weaving in sensory details and the peculiar aspects of the situation. Additionally, incorporate psychological insights, exploring the inner thoughts and emotions of those involved to add depth and complexity to the narrative.
+
+Return the output in the following format:
+
+```json
+{
+    'detail': "<details of this event>"
+}
+
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

@@ -1,0 +1,46 @@
+{
+  "Ancient Desert Caves": {
+    "Hidden Temples": {
+      "Temple of the Ancients": {
+        "Main Hall": [
+          "Altar",
+          "Wall Carvings"
+        ]
+      },
+      "Cave of Prophecies": {
+        "Drawing Chamber": [
+          "Ancient Drawings",
+          "Torch"
+        ]
+      }
+    },
+    "Desert Villages": {
+      "Village of Elders": {
+        "Elder's Gathering Hall": [
+          "Gathering Table",
+          "Story Scrolls"
+        ]
+      },
+      "Market Square": {
+        "Trading Booths": [
+          "Handcrafted Pottery",
+          "Spices"
+        ]
+      }
+    },
+    "Desert Landscape": {
+      "Oasis": {
+        "Water Source": [
+          "Water Container",
+          "Palm Trees"
+        ]
+      },
+      "Sand Dunes": {
+        "High Dune": [
+          "Compass",
+          "Binoculars"
+        ]
+      }
+    }
+  }
+}

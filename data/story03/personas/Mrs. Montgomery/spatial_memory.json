@@ -1,0 +1,66 @@
+{
+  "Abandoned Mansion": {
+    "Town Center": {
+      "Cafe Harmony": {
+        "Indoor Seating": [
+          "Coffee Table",
+          "Armchair"
+        ]
+      },
+      "Town Library": {
+        "Reading Room": [
+          "Bookshelf",
+          "Reading Lamp"
+        ]
+      },
+      "Music Store": {
+        "Instrument Section": [
+          "Guitar",
+          "Piano"
+        ]
+      },
+      "Cottage": {
+        "Room 2A": [
+          "Desk",
+          "Armchair"
+        ]
+      },
+      "Apartment": {
+        "Room 6B": [
+          "Keyboard",
+          "Music Stand"
+        ],
+        "Room 3C": [
+          "Toolbox",
+          "Sofa"
+        ]
+      },
+      "House": {
+        "Room 1A": [
+          "Fireplace",
+          "Coffee Table"
+        ]
+      }
+    },
+    "Abandoned Mansion": {
+      "Grand Hall": {
+        "Mysterious Piano": [
+          "Sheet Music",
+          "Candelabra"
+        ]
+      },
+      "Library Room": {
+        "Antique Bookshelf": [
+          "Leather-Bound Book",
+          "Reading Table"
+        ]
+      },
+      "Secret Basement": {
+        "Old Storage": [
+          "Dusty Trunk",
+          "Old Photograph"
+        ]
+      }
+    }
+  }
+}

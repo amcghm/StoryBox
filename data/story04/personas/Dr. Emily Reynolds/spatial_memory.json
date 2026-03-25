@@ -1,0 +1,65 @@
+{
+  "Arctic Research Station": {
+    "Research Station": {
+      "Main Laboratory": {
+        "Sample Analysis Room": [
+          "Microscope",
+          "Spectrometer"
+        ],
+        "Artifact Study Room": [
+          "Workbench",
+          "Tools"
+        ]
+      },
+      "Command Center": {
+        "Control Room": [
+          "Weather Station",
+          "Communication Equipment"
+        ],
+        "Briefing Area": [
+          "Conference Table",
+          "Whiteboard"
+        ]
+      },
+      "Storage Facility": {
+        "Equipment Room": [
+          "Field Gear",
+          "Sample Containers"
+        ],
+        "Food Supply Room": [
+          "Canned Goods",
+          "Freeze-Dried Meals"
+        ]
+      }
+    },
+    "Living Quarters": {
+      "Shared Bedroom": {
+        "Bed 1": [
+          "Blanket",
+          "Pillow"
+        ],
+        "Bed 2": [
+          "Blanket",
+          "Alarm Clock"
+        ],
+        "Bed 3": [
+          "Comforter",
+          "Nightstand"
+        ],
+        "Bed 4": [
+          "Military-Style Blanket",
+          "Reading Lamp"
+        ],
+        "Bed 5": [
+          "Throw Blanket",
+          "Notepad"
+        ],
+        "Lockers": [],
+        "Recreation Room": [
+          "Couch",
+          "Game Console"
+        ]
+      }
+    }
+  }
+}

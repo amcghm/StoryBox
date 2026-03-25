@@ -1,0 +1,64 @@
+{
+  "Frozen City": {
+    "City Center": {
+      "Highland Apartments": {
+        "Room 704": [
+          "Research Desk",
+          "Whiteboard"
+        ]
+      },
+      "Central Library": {
+        "Research Section": [
+          "Bookshelves",
+          "Reading Table"
+        ]
+      },
+      "Tech Hub": {
+        "Room 5": [
+          "Server Rack",
+          "Workstation"
+        ]
+      },
+      "Police Station": {
+        "Office 2": [
+          "Filing Cabinet",
+          "Radio"
+        ]
+      },
+      "Abandoned Warehouse": {
+        "Room 3": [
+          "Sleeping Bag",
+          "Backpack"
+        ]
+      },
+      "City Park": {
+        "Fountain Square": [
+          "Fountain",
+          "Benches"
+        ]
+      }
+    },
+    "Suburbs": {
+      "Elmwood House": {
+        "Unit 12": [
+          "Study Desk",
+          "Armchair"
+        ]
+      },
+      "Maple Street": {
+        "House 45": [
+          "Dining Table",
+          "Family Photo"
+        ]
+      }
+    },
+    "Industrial District": {
+      "Old Factory": {
+        "Production Floor": [
+          "Conveyor Belt",
+          "Tool Chest"
+        ]
+      }
+    }
+  }
+}

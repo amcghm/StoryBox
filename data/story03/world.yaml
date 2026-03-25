@@ -1,0 +1,106 @@
+name: Abandoned Mansion
+description: A mysterious old mansion situated on the outskirts of a small town, surrounded by dense woods and filled with secrets.
+cities:
+  - name: Town Center
+    description: The bustling heart of the small town where locals gather and businesses thrive.
+    places:
+      - name: Cafe Harmony
+        description: A cozy cafe frequented by musicians and artists, serving coffee and pastries.
+        areas:
+          - name: Indoor Seating
+            description: A comfortable area with tables and chairs for customers to relax and enjoy their food.
+            objects:
+              - name: Coffee Table
+                description: A small table used for placing drinks and snacks.
+              - name: Armchair
+                description: A comfortable chair for lounging.
+      - name: Town Library
+        description: A small, quiet library filled with books on local history and folklore.
+        areas:
+          - name: Reading Room
+            description: A peaceful space for reading and studying.
+            objects:
+              - name: Bookshelf
+                description: Shelves filled with a variety of books.
+              - name: Reading Lamp
+                description: A lamp providing light for reading.
+      - name: Music Store
+        description: A shop selling musical instruments and accessories, popular among local musicians.
+        areas:
+          - name: Instrument Section
+            description: A section displaying various musical instruments.
+            objects:
+              - name: Guitar
+                description: A string instrument used in various music genres.
+              - name: Piano
+                description: A large musical instrument with keys.
+      - name: Cottage
+        description: Evelyn Moore's cozy home located near the town center.
+        areas:
+          - name: Room 2A
+            description: Evelyn's personal study, filled with books and notes on local history.
+            objects:
+              - name: Desk
+                description: A wooden desk where Evelyn conducts her research.
+              - name: Armchair
+                description: A comfortable chair used for reading and writing.
+      - name: Apartment
+        description: A modest apartment building housing various residents, including Jordan Hayes and Nathan Green.
+        areas:
+          - name: Room 6B
+            description: Jordan Hayes' apartment, filled with musical instruments and composition materials.
+            objects:
+              - name: Keyboard
+                description: A portable piano keyboard used by Jordan for practice.
+              - name: Music Stand
+                description: A stand for holding sheet music while playing.
+          - name: Room 3C
+            description: Nathan Green's apartment, practical and simply furnished.
+            objects:
+              - name: Toolbox
+                description: A kit containing tools used by Nathan for his mechanical work.
+              - name: Sofa
+                description: A comfortable sofa where Nathan relaxes after work.
+      - name: House
+        description: A small, modest house in the town center.
+        areas:
+          - name: Room 1A
+            description: A cozy living space in the house, used for relaxation and personal time.
+            objects:
+              - name: Fireplace
+                description: A brick fireplace that provides warmth and comfort.
+              - name: Coffee Table
+                description: A wooden table in front of the sofa, used for placing books and drinks.
+  - name: Abandoned Mansion
+    description: An old, decrepit mansion rumored to hold dark secrets and alternate realities.
+    places:
+      - name: Grand Hall
+        description: A large entrance hall filled with dust and old furniture.
+        areas:
+          - name: Mysterious Piano
+            description: An old piano that seems to resonate with energy and power.
+            objects:
+              - name: Sheet Music
+                description: Tattered music sheets found on the piano.
+              - name: Candelabra
+                description: An ornate candle holder with melted candles.
+      - name: Library Room
+        description: A dusty room filled with old books and forgotten stories.
+        areas:
+          - name: Antique Bookshelf
+            description: A shelf containing ancient books about the mansion's history.
+            objects:
+              - name: Leather-Bound Book
+                description: A book detailing the mansion's dark past.
+              - name: Reading Table
+                description: A table for studying and reading.
+      - name: Secret Basement
+        description: A hidden basement that holds the mansion's darkest secrets.
+        areas:
+          - name: Old Storage
+            description: A storage area filled with forgotten items and relics.
+            objects:
+              - name: Dusty Trunk
+                description: A trunk containing mysterious items from the past.
+              - name: Old Photograph
+                description: A faded photograph of the mansion's former residents.

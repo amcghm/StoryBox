@@ -1,0 +1,41 @@
+Variables:
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Reverie date now
+!<INPUT 2>! -- Persona's name
+!<INPUT 3>! -- wake_up_hour
+!<INPUT 4>! -- Yesterday's Daily Plan
+!<INPUT 5>! -- Daily Plan Requirements
+
+<commentblockmarker>###</commentblockmarker>
+You are an expert in character development and behavioral planning. Your task is to create a new daily plan for a character based on their personality traits, lifestyle, and specific daily requirements. The plan should align with the character's Identity Stable Set (ISS) and reflect their established routines while adapting to the current date and time.
+
+!<INPUT 0>!
+
+Today is !<INPUT 1>!.
+
+Character Name: !<INPUT 2>!
+
+Wake-up Time: !<INPUT 3>!
+
+Yesterday's Daily Plan:
+!<INPUT 4>!
+
+Daily Plan Requirements:
+!<INPUT 5>!
+
+You can refer to yesterday's plan, and you also need to make certain changes to today's plan.
+Here is !<INPUT 2>!'s plan today in broad-strokes (with the time of the day. e.g., have lunch at 12:00 pm, watch TV from 7 to 8 pm):
+
+Return the output in the following format:
+
+```json
+[
+    "wake up and complete the morning routine at !<INPUT 3>!",
+    "...",
+    "..."
+]
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

@@ -1,0 +1,43 @@
+Variables:
+!<INPUT 0>! -- Speaker Identity Stable Set
+!<INPUT 1>! -- Listener Identity Stable Set
+!<INPUT 2>! -- Speaker's Name
+!<INPUT 3>! -- Listener's Name
+!<INPUT 4>! -- Speaker's Impression of the Listener
+!<INPUT 5>! -- Current Location
+!<INPUT 6>! -- Previous Conversation History
+
+<commentblockmarker>###</commentblockmarker>
+Basic Information of the Speaker:
+!<INPUT 0>!
+
+Basic Information of the Listener:
+!<INPUT 1>!
+
+Impression of !<INPUT 2>! towards !<INPUT 3>!:
+!<INPUT 4>!
+
+Current Location:
+!<INPUT 5>!
+
+!<INPUT 2>! is having a one-time conversation with !<INPUT 3>!, where !<INPUT 2>! is the speaker, and !<INPUT 3>! is the listener.
+
+Previous Conversation History:
+!<INPUT 6>!
+
+However, now !<INPUT 2>! is acting particularly unusual, always saying strange and peculiar things, seemingly expressing !<INPUT 2>!'s dissatisfaction with things.
+
+What will !<INPUT 2>! say to !<INPUT 3>? And will the conversation be over after this exchange?
+
+Return the output in the following format:
+
+```json
+{
+    "utterance": "<What !<INPUT 0>! says to !<INPUT 1>!>",
+    "is_end": <Whether the conversation is over, "True" or "False", as a string>
+}
+```
+
+Please ensure that the output can be read by Python's JSON library. You only need to respond with that code block portion, without any additional content.
+
+Output in JSON format:

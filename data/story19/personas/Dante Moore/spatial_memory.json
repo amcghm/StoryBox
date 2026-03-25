@@ -1,0 +1,62 @@
+{
+  "Futuristic Metropolis": {
+    "Corporate District": {
+      "Headquarters Tower": {
+        "CEO's Office": [
+          "Desk",
+          "Computer"
+        ]
+      },
+      "Corporate Mall": {
+        "VIP Lounge": [
+          "Lounge Chairs",
+          "Coffee Table"
+        ]
+      }
+    },
+    "Underground Resistance Base": {
+      "Operations Room": {
+        "Hacking Terminal": [
+          "Keyboard",
+          "Monitor"
+        ]
+      },
+      "Strategy Room": {
+        "Planning Table": [
+          "Map",
+          "Whiteboard"
+        ]
+      }
+    },
+    "Black Market District": {
+      "Arms Dealer": {
+        "Weapon Rack": [
+          "Gun",
+          "Spy Camera"
+        ]
+      },
+      "Data Broker": {
+        "Data Terminal": [
+          "External Hard Drive",
+          "Encryption Software"
+        ]
+      }
+    },
+    "Government District": {
+      "City Hall": {
+        "Council Room": [
+          "Council Table",
+          "Government Files"
+        ]
+      }
+    },
+    "Media Center": {
+      "Broadcast Studio": {
+        "News Desk": [
+          "Teleprompter",
+          "Camera"
+        ]
+      }
+    }
+  }
+}
