@@ -10,6 +10,7 @@ from reverie.manager.prompt_manager import prompt_manager
 async def generate_event_detail(persona, current_event: Event) -> str | None:
     """
     Generate the details of the event and the corresponding persona's psychology.
+
     :param persona: Persona
     :param current_event: Current event
     :return: str | None
@@ -34,6 +35,7 @@ async def generate_event_detail(persona, current_event: Event) -> str | None:
 async def detail(persona) -> None:
     """
     If the persona is busy with an event, it might be very simple, so we need to describe it in detail.
+    
     :param persona: Persona
     :return: None
     """

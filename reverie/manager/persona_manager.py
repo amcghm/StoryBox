@@ -82,6 +82,7 @@ class PersonaManager:
     def is_existed(self, name: str) -> bool:
         """
         Check if a persona exists given their name.
+
         :param name: Persona's name
         :return: Whether the persona exists
         """
@@ -90,6 +91,7 @@ class PersonaManager:
     def is_busy(self, name: str) -> bool:
         """
         Check if a persona is currently busy given their name.
+        
         :param name: Persona's name
         :return: Whether the persona is currently busy
         """

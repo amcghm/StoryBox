@@ -112,6 +112,7 @@ class Scratch:
     def get_daily_plan_str(self) -> str:
         """
         Return self.daily_plan in str format
+
         :return: self.daily_plan in str format
         """
 
@@ -120,6 +121,7 @@ class Scratch:
     def get_daily_plan_hourly_str(self, after_current_time: bool = True) -> str:
         """
         Return self.daily_plan_hourly in str format
+
         :return: self.daily_plan_hourly in str format
         """
         ret = []
@@ -140,6 +142,7 @@ class Scratch:
     def get_daily_plan_requirement_str(self) -> str:
         """
         Return self.daily_plan_requirement in str format
+        
         :return: self.daily_plan_requirement in str format
         """
         return "\n".join(self.daily_plan_requirement)

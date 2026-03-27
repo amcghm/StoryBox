@@ -45,6 +45,7 @@ class MemoryItem:
     def to_dict(self) -> dict:
         """
         Convert properties to a dict type
+        
         :return: dict
         """
 

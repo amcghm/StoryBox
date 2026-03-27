@@ -16,18 +16,18 @@ from reverie.persona.cognitive.detail import detail
 
 class Persona:
     def __init__(self, name, folder_mem_saved=None):
-        # 角色的姓名
+        # Persona name
         self.name = name
 
-        # 角色的初始设定
+        # Persona's scratch
         scratch_saved = f"{folder_mem_saved}/scratch.json"
         self.scratch = Scratch(scratch_saved)
 
-        # 角色的空间记忆
+        # Persona's spatial memory
         f_spatial_mem_saved = f"{folder_mem_saved}/spatial_memory.json"
         self.spatial_mem = SpatialMemory(f_spatial_mem_saved)
 
-        # 角色的长期记忆
+        # Persona's long-term memory
         f_long_term_mem_saved = f"{folder_mem_saved}/long_term_memory.json"
         self.long_term_mem = LongTermMemory(f_long_term_mem_saved)
 
@@ -40,58 +40,67 @@ class Persona:
 
     def perceive(self, world):
         """
-        感知角色周围的事件，并将其保存到记忆中，包括事件和空间。
+        Perceive nearby events around the persona and store them in memory,
+        including event and spatial information.
 
-        我们首先感知角色附近的事件，如果在该范围内发生了很多事件，
-        我们将选择最近的 <att_bandwidth> 个事件。
+        We first perceive events near the persona. If many events happen
+        within range, we keep the closest <att_bandwidth> events.
 
-        最后，我们检查这些事件是否是新的，这由 <retention> 决定。
-        如果它们是新的，我们将保存这些事件并返回对应的 <ConceptNode> 实例。
+        Finally, we check whether these events are new, based on <retention>.
+        If they are new, we store them and return the corresponding
+        <ConceptNode> instances.
 
-        :param world: 一个表示当前角色所处世界的实例
+        :param world: An instance representing the world where the persona is.
 
-        :return list[Event]: 一个包含感知到的新的事件的列表。
+        :return list[Event]: A list of newly perceived events.
         """
         return perceive(self, world)
 
     def retrieve(self, perceived):
         """
-        根据角色和感受到的事件，返回与这些事件相关的记忆列表
-        :param perceived: 感受到的 事件 或 字符串
-        :return: 记忆组成的列表的字典
+        Return memories related to the perceived events for this persona.
+
+        :param perceived: A perceived event or string.
+        :return: A dictionary where values are lists of memories.
         """
         return retrieve(self, perceived)
 
     async def plan(self, world: World, new_day, retrieved):
         """
-        根据 retrieved 所得到的信息，进行一天的计划
-        :param world: 世界
-        :param new_day: 是否为新的一天，或模拟的第一天：False, "First day", "New day"
-        :param retrieved: 检索到的相关记忆, { event_id: [MemoryItem] }
-        :return: 计划
+        Create a daily plan based on information from retrieved memories.
+
+        :param world: The world.
+        :param new_day: Whether it is a new day, or the first simulated day:
+            False, "First day", "New day".
+        :param retrieved: Retrieved related memories, { event_id: [MemoryItem] }.
+        :return: The generated plan.
         """
         return await plan(self, world, new_day, retrieved)
 
     async def execute(self, world, plan_dict):
         """
-        执行计划
-        :param world: 世界
-        :param plan_dict: 计划
-        :return: 是否执行成功
+        Execute a plan.
+
+        :param world: The world.
+        :param plan_dict: The plan.
+        :return: Whether execution succeeds.
         """
 
         return await execute(self, world, plan_dict)
 
     async def reflect(self):
         """
-        回顾人物的记忆，并基于此产生新想法，设定为每天晚上执行一次反思
+        Review the persona's memories and generate new thoughts.
+        This is intended to run once every evening.
+
         :return: None
         """
         await reflect(self)
 
     async def detail(self):
         """
-        如果人物正在忙事情，可能这个事情是很朴素的，那么需要对这个事情进行细节化的描述
+        If the persona is currently busy, the activity may be too plain,
+        so this adds a more detailed description of that activity.
         :return: None
         """
 
@@ -99,10 +108,11 @@ class Persona:
 
     async def step(self, world: World, new_day: str = None):
         """
-        主流程
-        :param world: 世界
-        :param new_day: 是否为新的一天
-        :return:
+        Main workflow.
+        
+        :param world: The world.
+        :param new_day: Whether it is a new day.
+        :return: None
         """
         if not persona_manager.is_busy(self.name):
             perceived = self.perceive(world)
@@ -112,5 +122,5 @@ class Persona:
                 await self.execute(world, next_plan)
                 # await self.reflect()
 
-        # 对角色当前所做的事件进行细节化的描述
+        # Add detailed descriptions for the persona's current activity.
         await self.detail()

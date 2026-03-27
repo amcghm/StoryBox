@@ -8,6 +8,7 @@ from loguru import logger
 def parse_json_response(text: str):
     """
     Extract the json code block from plain text and return the result read by json.loads()
+
     :param text: Plain text
     :return: The result read by json.loads()
     """
@@ -40,6 +41,7 @@ def parse_json_response(text: str):
 def parse_yaml_response(text: str):
     """
     Extract the yaml code block from plain text and return it in string format
+    
     :param text: Plain text
     :return: String format
     """

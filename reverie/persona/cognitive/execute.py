@@ -15,6 +15,7 @@ from reverie.config.config import Config
 async def summarize_relationship(curr_persona, target_persona, retrieved: dict[str, list[MemoryItem]]) -> str:
     """
     Summarize the relationship between two personas.
+
     :param curr_persona: Current persona
     :param target_persona: Target persona
     :param retrieved: Current persona's memory of the target persona
@@ -40,6 +41,7 @@ async def summarize_relationship(curr_persona, target_persona, retrieved: dict[s
 async def generate_single_utterance(speaker, listener, retrieved, chat_history) -> tuple[str, bool]:
     """
     Generate a single utterance.
+
     :param speaker: Speaker
     :param listener: Listener
     :param retrieved: Retrieved memory
@@ -74,6 +76,7 @@ async def generate_single_utterance(speaker, listener, retrieved, chat_history) 
 def move(persona, plan: dict) -> None:
     """
     Move to a location.
+
     :param persona: Persona
     :param plan: Plan, which contains the key 'move'
     :return: None
@@ -94,6 +97,7 @@ def move(persona, plan: dict) -> None:
 async def chat(curr_persona, plan: dict, round_num: int = 5, history_limit: int = 4) -> None:
     """
     Chat with another persona.
+
     :param curr_persona: Current persona
     :param plan: Plan
     :param round_num: Number of chat rounds
@@ -170,6 +174,7 @@ async def chat(curr_persona, plan: dict, round_num: int = 5, history_limit: int 
 async def execute(persona, world: World, plan: dict) -> bool:
     """
     Execute the plan.
+    
     :param persona: Persona
     :param world: World
     :param plan: Plan

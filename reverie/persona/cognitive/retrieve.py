@@ -60,6 +60,7 @@ def retrieve(persona, perceived: list[Event | str], ret_cnt=30) -> dict[Event | 
 def normalize(values: list[Union[int, float]]) -> list[float]:
     """
     Normalize a list of integers or floats to the range [0, 1]
+
     :param values: List containing integers or floats
     :return: List normalized to the range [0, 1]
     """
@@ -81,6 +82,7 @@ def normalize(values: list[Union[int, float]]) -> list[float]:
 def get_embedding(text: str) -> np.ndarray:
     """
     Get the embedding vector corresponding to the text
+
     :param text: Text
     :return: Vector
     """
@@ -94,6 +96,7 @@ def get_embedding(text: str) -> np.ndarray:
 def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
     """
     Cosine similarity
+
     :param a: np.ndarray
     :param b: np.ndarray
     :return: float
@@ -105,6 +108,7 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
 def get_recency_score(persona, memories: list[MemoryItem]) -> list[float]:
     """
     Get recency score, calculated using power operation based on persona.scratch.recency_decay
+
     :param persona: Persona
     :param memories: List of memory items
     :return: List of recency scores corresponding to positions
@@ -117,6 +121,7 @@ def get_recency_score(persona, memories: list[MemoryItem]) -> list[float]:
 def get_importance_score(persona, memories: list[MemoryItem]) -> list[float]:
     """
     Get importance score, temporarily returning 1.0 for all
+
     :param persona: Persona
     :param memories: List of memory items
     :return: List of importance scores corresponding to positions
@@ -130,6 +135,7 @@ def get_importance_score(persona, memories: list[MemoryItem]) -> list[float]:
 def get_relevance_score(persona, memories: list[MemoryItem], event: Event | str) -> list[float]:
     """
     Get relevance score, calculate similarity based on embedding
+    
     :param persona: Persona
     :param memories: List of memory items
     :param event: Current event or string

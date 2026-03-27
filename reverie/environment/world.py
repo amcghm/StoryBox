@@ -89,6 +89,7 @@ class World:
     def get_nearby_events(self, curr_area: str) -> List[Tuple]:
         """
         Get nearby events based on the current area, sorted by distance in ascending order.
+
         :param curr_area: The current area, e.g., "World:Guangzhou:Yuexiu Park:Children's Playground"
         :return: A list of nearby events [(event: Event, distance: int)]
         """
@@ -115,6 +116,7 @@ class World:
     def get_distance(location1: str, location2: str) -> int:
         """
         Get the relative distance between two locations.
+
         :param location1: Location 1, e.g., "World:Guangzhou:Yuexiu Park:Children's Playground"
         :param location2: Location 2, e.g., "World:Shenzhen:Shenzhen Bay Park:Trail"
         :return: The calculated distance
@@ -162,6 +164,7 @@ class World:
     def is_existed(self, location: str) -> bool:
         """
         Determine whether a given location string exists in the world.
+
         :param location: Location string
         :return: True if it exists, False otherwise
         """
@@ -177,6 +180,7 @@ class World:
     def get_flat_world(self, with_description: bool = True) -> str:
         """
         Get a flattened representation of the world.
+        
         :param with_description: Whether to include local descriptions
         :return: Flattened world string
         """

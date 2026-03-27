@@ -33,6 +33,7 @@ class SpatialMemory:
     def get_memory(self, flatten: bool = True) -> str:
         """
         Print spatial memory.
+
         :param flatten: Whether to flatten the memory
         :return: Spatial memory
         """
@@ -46,6 +47,7 @@ class SpatialMemory:
         def _print_memory(memory=None, depth=0) -> None:
             """
             The actual function that outputs spatial memory
+
             :param memory: Spatial memory
             :param depth: Depth of the tree memory
             :return: None
@@ -71,6 +73,7 @@ class SpatialMemory:
     def flatten_memory(self) -> list[str]:
         """
         Flatten the hierarchical memory
+        
         :return: Flattened memory
         """
         ret: list[str] = []

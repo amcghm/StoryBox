@@ -17,6 +17,7 @@ class DateTimeManager:
                              str_format: str = "%Y-%m-%d %I:%M %p") -> str | datetime:
         """
         Return the current datetime.
+        
         :param return_str: Whether to return in string format
         :param str_format: String format
         :return: Current datetime

@@ -376,6 +376,7 @@ class Storyteller:
     def generate_story(self) -> None:
         """
         Generate the story. Conflicts and plot points for each chapter have been generated previously. First, generate content based on these two, and then organize it into complete chapters.
+
         :return: None
         """
         # Store the summaries of chapters generated historically
@@ -400,6 +401,7 @@ class Storyteller:
     def generate_plot_content(self, chapter_i: int, chapter_summaries_str) -> list[str]:
         """
         Generate plot content, main body.
+        
         :param chapter_i: The i-th chapter
         :param chapter_summaries_str: Summaries of chapters generated historically
         :return: plot_contents

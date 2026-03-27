@@ -19,6 +19,7 @@ class EventManager:
     def load_file(self, file_path: str) -> bool:
         """
         Load events from a json file.
+
         :param file_path: File path
         :return: True if loaded successfully, False otherwise
         """
@@ -79,6 +80,7 @@ class EventManager:
     def get_all_events(self) -> list[Event]:
         """
         Get all events.
+        
         :return: A list containing all events
         """
         events = self.db.query(Event).all()

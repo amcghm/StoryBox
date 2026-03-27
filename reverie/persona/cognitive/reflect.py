@@ -12,6 +12,7 @@ from reverie.persona.memory.memory_item import MemoryItem
 async def generate_focal_points(persona, num_memories: int = 30, num_focal_points: int = 3) -> list[str]:
     """
     Generate a series of focal points based on the persona's memory.
+
     :param persona: Persona
     :param num_memories: Number of memories
     :param num_focal_points: Number of focal points to generate
@@ -56,6 +57,7 @@ async def generate_focal_points(persona, num_memories: int = 30, num_focal_point
 async def generate_thoughts(retrieved: list[MemoryItem], num_thoughts: int = 3) -> list[str]:
     """
     Generate thoughts based on retrieved memories.
+    
     :param retrieved: Retrieved memories
     :param num_thoughts: Number of thoughts to generate
     :return: List of thoughts
@@ -79,6 +81,7 @@ async def generate_thoughts(retrieved: list[MemoryItem], num_thoughts: int = 3) 
 async def reflect(persona) -> None:
     """
     Review the persona's memories and generate new thoughts based on them, set to execute a reflection once every night.
+
     :param persona: Persona
     :return: None
     """

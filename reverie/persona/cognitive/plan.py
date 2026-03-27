@@ -16,6 +16,7 @@ from reverie.manager.datetime_manager import datetime_manager
 async def generate_wake_up_hour(persona) -> str:
     """
     Generate the persona's wake up hour
+
     :param persona: Persona
     :return: Wake up hour in 12-hour format, e.g., "8:00 am"
     """
@@ -31,6 +32,7 @@ async def generate_wake_up_hour(persona) -> str:
 async def generate_first_daily_plan(persona, wake_up_hour) -> list[str]:
     """
     Generate the persona's daily plan for the day, returning a list of actions the persona will perform today
+
     :param persona: Persona
     :param wake_up_hour: Wake up hour
     :return: A list containing the actions the persona will perform today
@@ -52,6 +54,7 @@ async def generate_first_daily_plan(persona, wake_up_hour) -> list[str]:
 async def generate_new_daily_plan(persona, wake_up_hour: str):
     """
     Generate the persona's daily plan for the day, returning a list of actions the persona will perform today
+
     :param persona: Persona
     :param wake_up_hour: Wake up hour
     :return: A list containing the actions the persona will perform today
@@ -74,6 +77,7 @@ async def generate_new_daily_plan(persona, wake_up_hour: str):
 async def generate_daily_plan_requirement(persona):
     """
     Generate the persona's daily plan requirements for the day, returning a list of the persona's plan requirements for today
+    
     :param persona: Persona
     :return: Requirements for the persona's plan today
     """
@@ -93,6 +97,7 @@ async def generate_daily_plan_requirement(persona):
 async def generate_daily_plan_hourly(persona) -> dict[datetime, str]:
     """
     Generate daily_plan_hourly based on the persona's daily_plan
+
     :param persona: Persona
     :return: Daily plan containing 24 hours, e.g., {datetime("12:00 AM"): "Sleep"}
     """
@@ -136,6 +141,7 @@ async def long_term_planning(persona, new_day) -> None:
     """
     Long-term planning. It is actually the plan for the day.
     First create the wake-up hour for the day, then generate the hourly plan for the day
+
     :param persona: Persona
     :param new_day: Indicates whether it is "First day", "New day" of simulation, or neither
     :return: None
@@ -173,6 +179,7 @@ async def long_term_planning(persona, new_day) -> None:
 async def choose_focused_event(persona, retrieved: dict[int, list[MemoryItem]]) -> int:
     """
     Based on the retrieved list, select the event the persona is most likely to focus on first
+
     :param persona: Persona
     :param retrieved: Retrieved relevant memories, { event_id: [MemoryItem] }
     :return: The ID of the event most likely to be focused on first
@@ -201,6 +208,7 @@ async def choose_focused_event(persona, retrieved: dict[int, list[MemoryItem]]) 
 async def choose_reaction_move(persona, world: World, focused_event_id: int) -> dict | None:
     """
     Choose for the persona to move to a certain place
+
     :param persona: Persona
     :param world: World
     :param focused_event_id: Focused event ID
@@ -230,6 +238,7 @@ async def choose_reaction_move(persona, world: World, focused_event_id: int) -> 
 async def choose_reaction_chat(persona, world: World, focused_event_id: int) -> dict | None:
     """
     Choose who the persona will chat with
+
     :param persona: Persona
     :param world: World
     :param focused_event_id: Focused event ID
@@ -260,6 +269,7 @@ async def choose_reaction(persona, world: World, focused_event_id: int) -> dict 
     """
     Choose the action the persona might perform based on the persona's plan, the state of the world, and the focused event
     move, chat, move_chat, none
+
     :param persona: Persona
     :param world: World
     :param focused_event_id: Focused event ID
@@ -280,6 +290,7 @@ async def choose_reaction(persona, world: World, focused_event_id: int) -> dict 
 async def plan(persona, world: World, new_day, retrieved: dict[Event, list[MemoryItem]]) -> dict | None:
     """
     Make a plan for the day based on the information obtained from retrieved
+    
     :param persona: Persona
     :param world: World
     :param new_day: Whether it is a new day or the first day of simulation: False, "First day", "New day"

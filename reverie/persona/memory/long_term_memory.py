@@ -28,6 +28,7 @@ class LongTermMemory:
     def load_file(self, file_path: str) -> bool:
         """
         Load long-term memory from a file.
+
         :param file_path: File path
         :return: True if loaded successfully, False otherwise
         """
@@ -68,6 +69,7 @@ class LongTermMemory:
     def save(self, file_path: str) -> None:
         """
         Save long-term memory to a file.
+
         :param file_path: File path
         :return: None
         """
@@ -84,6 +86,7 @@ class LongTermMemory:
     def summarize_memories(self) -> None:
         """
         Summarize memories.
+
         :return: None
         """
 
@@ -114,6 +117,7 @@ class LongTermMemory:
     def add_chat_mem(self, chat_history: list[tuple[str, str, str]]) -> None:
         """
         Add chat memory.
+        
         :param chat_history: Chat history, [(speaker_name, listener_name, utterance)]
         :return: None
         """

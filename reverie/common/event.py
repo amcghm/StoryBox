@@ -45,6 +45,7 @@ class Event(Base):
     def get_str(self) -> str:
         """
         Convert the event to a string representation, which is different from __repr__
+        
         :return: Event in string format
         """
 

@@ -10,6 +10,7 @@ class FaissManager:
     def __init__(self, dimension, sqlite_db_path, index_type='L2', batch_size=128):
         """
         Initialize the Faiss index manager
+
         :param dimension: Vector dimension
         :param sqlite_db_path: Path to the SQLite database file
         :param index_type: Index type ('L2' for Euclidean distance, 'IP' for Inner Product)
@@ -31,6 +32,7 @@ class FaissManager:
     def _connect_with_db(self, db_path):
         """
         Connect to the sqlite3 database
+
         :param db_path: Path to the sqlite3 database file
         :return: None
         """
@@ -39,6 +41,7 @@ class FaissManager:
     def _get_event_by_id(self, event_id: int, return_str: bool = False):
         """
         Get an event from the sqlite3 database
+
         :param event_id: Event ID
         :param return_str: Whether to return in string format
         :return: Event
@@ -51,6 +54,7 @@ class FaissManager:
     def _get_events_by_ids(self, event_ids: list[int], return_str: bool = False):
         """
         Get multiple events from the sqlite3 database
+
         :param event_ids: List of event IDs
         :param return_str: Whether to return in string format
         :return: List of events
@@ -65,6 +69,7 @@ class FaissManager:
     def add_embeddings(self, embeddings):
         """
         Add embeddings to the index
+
         :param embeddings: Numpy array, shape (n_samples, dimension)
         """
         if not isinstance(embeddings, np.ndarray):
@@ -111,6 +116,7 @@ class FaissManager:
     def query(self, query_input: str | np.ndarray, k=5, return_events=True):
         """
         Query vectors most similar to the given embedding or text
+
         :param query_input: Query input, can be text (str) or embedding vector (numpy array)
         :param k: Number of nearest neighbors to return
         :param return_events: Whether to directly return instances
@@ -142,6 +148,7 @@ class FaissManager:
     def save_index(self, file_path):
         """
         Save the index to disk
+
         :param file_path: File path to save
         """
         faiss.write_index(self.index, file_path)
@@ -149,6 +156,7 @@ class FaissManager:
     def load_index(self, file_path):
         """
         Load the index from disk
+
         :param file_path: Index file path
         """
         self.index = faiss.read_index(file_path)
@@ -156,6 +164,7 @@ class FaissManager:
     def get_index_size(self):
         """
         Get the number of vectors in the current index
+        
         :return: Number of vectors
         """
         return self.index.ntotal
